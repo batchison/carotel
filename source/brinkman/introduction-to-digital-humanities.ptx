@@ -123,11 +123,12 @@
       </row>
     </tabular>
   </section>
-
+<!--
   <section xml:id="asgn1-navigation">
     <title>Navigation</title>
     <p>
       Return to the <xref ref="chapter-syllabus" text="title" />.
     </p>
   </section>
+-->
 </chapter>
