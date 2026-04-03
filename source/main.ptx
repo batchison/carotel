@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
 <pretext xml:lang="en-US" xmlns:xi="http://www.w3.org/2001/XInclude">
 
-  <docinfo>
+   <xi:include href="./docinfo.ptx" />
 
+<!--  <docinfo>
     <document-id>CA-ROTEL Grant</document-id>
-
     <macros>\newcommand{\foo}{b^{ar}}</macros>
     <latex-image-preamble>\usepackage{tikz}</latex-image-preamble>
-  </docinfo>
+  </docinfo>-->
 
   <article xml:id="pretext-working-group">
     <title>PreTeXt Working Group</title>
