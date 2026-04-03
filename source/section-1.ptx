@@ -11,7 +11,7 @@
     <figure>
       <caption>A frog</caption>
       <image source="frog.jpg" width="50%">
-        <description>A nice-looking frog with a longish description.</description>
+        <description><p>A nice-looking frog with a longish description.</p></description>
       </image>
     </figure>
     <p>Bar: <m>\foo</m></p>
