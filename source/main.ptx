@@ -15,8 +15,8 @@
   <!--<xi:include href="./frontmatter.ptx" />-->
   <!--<xi:include href="./introduction.ptx" />-->
     <xi:include href="./carotel-and-pretext.ptx" />
-    <xi:include href="./brinkman/section-1.ptx" />
-    <xi:include href="./section-2.ptx" />
+    <xi:include href="./brinkman/introduction-to-digital-humanities.ptx" />
+  <!--<xi:include href="./section-2.ptx" />-->
   </article>
 
 </pretext>
