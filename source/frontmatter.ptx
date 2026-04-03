@@ -5,10 +5,12 @@
       <personname>CA-ROTEL Grant</personname>
     </author>
   </bibinfo>
-  
-<!--<abstract>
+  <titlepage>
+    <titlepage-items/> 
+  </titlepage>
+  <abstract>
     <p>
       This is the abstract.
     </p>
-  </abstract>-->
+  </abstract>
 </frontmatter>
