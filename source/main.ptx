@@ -12,7 +12,7 @@
   <article xml:id="pretext-working-group">
     <title>PreTeXt Working Group</title>
 
-    <xi:include href="./frontmatter.ptx" />
+  <!--<xi:include href="./frontmatter.ptx" />-->
     <xi:include href="./introduction.ptx" />
     <xi:include href="./section-1.ptx" />
     <xi:include href="./section-2.ptx" />
