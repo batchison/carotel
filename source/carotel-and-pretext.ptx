@@ -6,9 +6,13 @@
 ) is a multi-year grant offered through the Department of Education Open Textbook Pilot Program.</p>
     <p><url href="https://pretextbook.org">PreTeXt</url> is a versatile free authoring system. Among its developers’ guiding principles is the recognition of “the inherent value in producing material that is accessible to everyone.” Whether authoring a textbook, scholarly article, in-class assessment, or weekly handout, PreTeXt affords authors the opportunity to broaden the scope of what they can offer in their classes and their academic discipline.</p>
 </introduction>
-  <subsection xml:id="subsection-1">
-    <title>My First Subsection</title>
-     <p>This site contains sample course items created in PreTeXt by Framingham State University faculty members.  This project is supported entirely through the CA-ROTEL grant.</p>
-    <p>The CA-ROTEL Project (focused on Career Readiness and Artificial Intelligence) is fully funded by the U.S. Department of Education’s grant from the Fund for the Improvement of Postsecondary Education, (FIPSE).  The Department does not mandate or prescribe practices, models, or other activities described or discussed in this publication. The contents of this Open Educational Resource (OER) may contain examples of, adaptations of, and links to resources created and maintained by another public or private organization. The Department does not control or guarantee the accuracy, relevance, timeliness, or completeness of this outside information. The contents of the OER materials do not necessarily represent the policy of the Department of Education, and an endorsement by the Federal Government should not be assumed.</p>
+  <subsection xml:id="fsu-pretext-working-group">
+    <title>The Framingham State PreTeXt Working Group</title>
+    <p>In the Spring of 2026, in response to the rule on accessibility of web content and mobile apps provided by state and local governments, a Framingham State University PreTeXt Working Group was created by the faculty, with the central goal of creating accessible course documents.</p>
+    <p>This site contains sample course items created in PreTeXt by working group members.</p>
+  </subsection>
+  <subsection xml:id="fsu-pretext-working-group">
+    <title>CA-ROTEL Support</title>
+    <p>This project is supported entirely through the CA-ROTEL grant. The CA-ROTEL Project (focused on Career Readiness and Artificial Intelligence) is fully funded by the U.S. Department of Education’s grant from the Fund for the Improvement of Postsecondary Education, (FIPSE).  The Department does not mandate or prescribe practices, models, or other activities described or discussed in this publication. The contents of this Open Educational Resource (OER) may contain examples of, adaptations of, and links to resources created and maintained by another public or private organization. The Department does not control or guarantee the accuracy, relevance, timeliness, or completeness of this outside information. The contents of the OER materials do not necessarily represent the policy of the Department of Education, and an endorsement by the Federal Government should not be assumed.</p>
   </subsection>
 </section>
