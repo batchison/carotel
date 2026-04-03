@@ -1,15 +1,6 @@
 var ptx_lunr_search_style = "textbook";
 var ptx_lunr_docs = [
 {
-  "id": "pretext-working-group-2",
-  "level": "1",
-  "url": "pretext-working-group-2.html",
-  "type": "Front Matter",
-  "number": "",
-  "title": "Front Matter",
-  "body": "  CA-ROTEL Grant       This is the abstract.   "
-},
-{
   "id": "section-1",
   "level": "1",
   "url": "section-1.html",
