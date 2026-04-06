@@ -1,4 +1,4 @@
-<chapter xml:id="asgn-prompt-engineering">
+<section xml:id="asgn-prompt-engineering">
   <title>Assignment: AI Prompt Engineering</title>
 
   <introduction>
@@ -7,36 +7,40 @@
     </p>
   </introduction>
 
-  <section xml:id="asgn1-intro">
+  <subsection xml:id="asgn1-intro">
     <title>Introduction</title>
     <p>The purpose of this assignment is two-fold. First, it is to give you an opportunity to think more deeply about the digital humanities, and to apply that thinking to creating an item that is useful and interesting to you. Second, it is a chance to practice working effectively with artificial intelligence chatbots and AI prompting techniques in an in-depth way.</p>
-  </section>
+  </subsection>
 
-  <section xml:id="asgn1-nace">
+  <subsection xml:id="asgn1-nace">
     <title>NACE Competencies</title>
+    <introduction>
     <p>The National Association of Colleges and Employers have identified eight core competencies that will help you develop career readiness. This assignment will give you an opportunity to focus on three of these competencies in particular: <em>Critical Thinking</em>, <em>Technology</em>, and <em>Communication</em>.</p>
+    </introduction>
 
-    <subsection xml:id="asgn1-nace-critical">
+    <subsubsection xml:id="asgn1-nace-critical">
       <title>Critical Thinking</title>
       <p>You will have an opportunity to engage in critical thinking as you develop SMART(ER) goals, informed by 5W+H, and as you critically evaluate AI responses.</p>
-    </subsection>
+    </subsubsection>
 
-    <subsection xml:id="asgn1-nace-tech">
+    <subsubsection xml:id="asgn1-nace-tech">
       <title>Technology</title>
       <p>Understand and leverage technologies ethically to enhance efficiencies, complete tasks, and accomplish goals.</p>
-    </subsection>
+    </subsubsection>
 
-    <subsection xml:id="asgn1-nace-comm">
+    <subsubsection xml:id="asgn1-nace-comm">
       <title>Communication</title>
       <p>Clearly and effectively exchange information, ideas, facts, and perspectives with persons inside and outside of an organization.</p>
-    </subsection>
-  </section>
+    </subsubsection>
+  </subsection>
 
-  <section xml:id="asgn1-task">
+  <subsection xml:id="asgn1-task">
     <title>Task</title>
+    <introduction>
     <p>In this assignment you’ll create an item that engages with a digital humanities issue through AI prompting. You should choose something that is of genuine interest and value to you. I encourage you to be creative here. For example,</p>
+    </introduction>
 
-    <subsection xml:id="asgn1-examples">
+    <subsubsection xml:id="asgn1-examples">
       <title>Examples</title>
       <p>
         <ul>
@@ -45,19 +49,20 @@
           <li>You could create an imaginative text, such as a play or short story, that engages with digital humanities.</li>
         </ul>
       </p>
-    </subsection>
+    </subsubsection>
 
-    <subsection xml:id="asgn1-requirements">
+    <subsubsection xml:id="asgn1-requirements">
       <title>Requirements</title>
       <p>Whatever you choose, please make this a text-based creation of approximately <em>750-1000 words</em>, since prompting for images and other media involves other considerations beyond what we will be discussing at this time. Your creation—and the prompt itself— should demonstrate a clear understanding of your chosen digital humanities issue and a clear grasp of what AI can do to help us think about this issue.</p>
-    </subsection>
-  </section>
+    </subsubsection>
+  </subsection>
 
-  <section xml:id="asgn1-details">
+  <subsection xml:id="asgn1-details">
     <title>Submission and Grade Details</title>
+    <introduction>
     <p>Since the product itself will be automatically generated, you will also be assessed on the quality of your prompt, your interaction with your AI chatbot, and your reflection. You will need to attach the following as <em>one document</em>:</p>
-
-    <subsection xml:id="asgn1-attachments">
+    </introduction>
+    <subsubsection xml:id="asgn1-attachments">
       <title>Attachments</title>
       <p>
         <ul>
@@ -68,15 +73,15 @@
           <li>A personal reflection of approximately 300 words on your process of thinking through your question. This personal reflection should be entirely in YOUR OWN WORDS.</li>
         </ul>
       </p>
-    </subsection>
+    </subsubsection>
 
-    <subsection xml:id="asgn1-due-date">
+    <subsubsection xml:id="asgn1-due-date">
       <title>Due Date</title>
       <p><em>Monday, November 10 @ 11:59pm.</em></p>
-    </subsection>
-  </section>
+    </subsubsection>
+  </subsection>
 
-  <section xml:id="asgn1-rubric">
+  <subsection xml:id="asgn1-rubric">
     <title>Rubric</title>
     <tabular bottom="minor" top="minor" left="minor" right="minor">
       <row>
@@ -122,7 +127,7 @@
         <cell>25 pts</cell>
       </row>
     </tabular>
-  </section>
+  </subsection>
 
   <!--<section xml:id="asgn1-navigation">
     <title>Navigation</title>
@@ -130,4 +135,4 @@
       Return to the <xref ref="chapter-syllabus" text="title" />.
     </p>
   </section>-->
-</chapter>
+</section>
