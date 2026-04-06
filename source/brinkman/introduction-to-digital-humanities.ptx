@@ -139,12 +139,12 @@
     <p>
       This assignment was created by Bartholomew Brinkman for the CA-ROTEL PreTeXt Working Group at Framingham State University. It is licensed under a BY-NC-SA Creative Commons license.
     </p>
-    <figure xml:id="cc-by-nc-sa">
-            <caption>Creative Commons License Attribution-NonCommercial-ShareAlike 4.0 International</caption>
-            <image source="by-nc-sa.png">
+    <!--<figure xml:id="cc-by-nc-sa">
+            <caption>Creative Commons License Attribution-NonCommercial-ShareAlike 4.0 International</caption>-->
+            <image width="20%" source="by-nc-sa.png">
                 <shortdescription>CC BY-NC-SA</shortdescription>
             </image>
-        </figure>
+    <!--</figure>-->
   </conclusion>
 
 </section>
