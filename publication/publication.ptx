@@ -12,7 +12,7 @@
 <publication>
   <common>
     <!-- Level at which are html files generated (chapter/section/etc): -->
-      <chunking level="0" />
+      <chunking level="1" />
 
     <!-- Depth for table of contents.  0 means no TOC -->
       <!--<tableofcontents level="1" />-->
@@ -105,7 +105,7 @@
   <!-- The embed-button makes it easy to copy the code for an iframe into your LMS -->
   <html embed-button="yes">
     <chunking level="1" /> 
-    <navigation depth="0"/>
+    <navigation depth="2"/>
 
     <css shell="ignore">
       <style>
