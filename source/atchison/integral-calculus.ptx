@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-volume-assignment">
+    <title>Integral Calculus: Volume Assignment</title>
+    <introduction>
+        <p> This is a sample assignment for students enrolled in a second semester calculus course.</p>
+    </introduction>
+    <subsection xml:id="subsec-primary-objectives">
+    <title>Primary Objective</title>
+    <p> The primary objective of this assignment is for students to design a model for a 3D-printed cup or vessel using both Desmos and Autodesk Fusion 360. Ultimately, students should be able to obtain a 3D-printed version of their design through the University or their local library.</p>
+    </subsection>
+    <subsection xml:id="subsec-submission-requirements">
+    <title>Submission Requirements</title>
+    <p>Below are the required specifications for a finished cup design.
+        <ul>
+            <li>
+                <p>
+                    Standard dimensions should be metric (centimeters and millimeters preferred).
+                </p>
+            </li>
+            <li>
+                <p>
+                    All designs must have a minimum base radius of 2 centimeters and a minimum height of 10 centimeters.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Designs must hold a minimum volume of half a liter, maximum 550 mL.
+                </p>
+            </li>
+        </ul>
+    </p>
+    </subsection>
+    <subsection xml:id="subsec-assignment-instructions">
+    <title>Assignment Instructions</title>
+    <p>
+        For this assignment, students should complete the following.
+        <ol>
+            <li>
+                <p>
+                    Watch the following video in its entirety.
+                </p>
+                <video youtube="k6F07BW4gAg"/>
+            </li>
+            <li>
+                <p>
+                    Use <url href="https://www.desmos.com/">Desmos</url> to create a 2D cross-section of a cup design.
+                    <ul>
+                        <li>
+                            <p>
+                                2D cross-sections should be located in Quadrant I, and represent the area to be rotated about the <m>y-</m> or <m>x-</m> axis.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Only non-linear functions should be used for the vertical walls of the resulting solid.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Using the same Desmos page, evaluate integrals for both the volume contained in the resulting solid and the amount of material needed for design construction.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                The resulting Desmos page should be saved and a link to the page shared with the instructor. Because of this, it is recommended that students create a free Desmos account before getting started.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                The following links are meant as a guiding examples. Each could be considered as more complicated than what is necessary for completing this part of the assignment. <em>Students should start simply.</em>  Once the requirements of the assignment have been met, sudents are encouraged to experiment with more complex designs and functions.
+                            </p>
+                            <p>
+                                <url href="https://www.desmos.com/calculator/uduq5xb9gf">Desmos Example 1</url>
+                            </p>
+                            <p>
+                                <url href="https://www.desmos.com/calculator/ixdah1jcmi">Desmos Example 2 - Without Sliders</url>
+                            </p>
+                            <p>
+                                <url href="https://www.desmos.com/calculator/fhlzv6dj7s">Desmos Example 2 - With Sliders</url>
+                            </p>
+                        </li>
+                    </ul>
+                </p>
+            </li>
+            <li>
+                <p>
+                    Create a free student account for Autodesk Fusion 360. using Autodesk Fusion 360 and the referenced video, generate a rendering of the 3D solid that can be used for printing purposes. Email a copy of your 3D rendering to the instructor.
+                </p>
+            </li>
+        </ol>
+    </p>
+    </subsection>
+    <subsection xml:id="subsec-example">
+        <title>Example</title>
+     <sidebyside width="45%" margins="2%">
+        <figure xml:id="desmos-example">
+            <caption>2D region created in Desmos</caption>
+            <image source="volume-desmos-example.png">
+                <shortdescription>Desmos Example</shortdescription>
+            </image>
+        </figure>
+
+        <figure xml:id="autodesk-example">
+            <caption>3D solid generated using Autodesk Fusion 360</caption>
+            <image source="volume-autodesk-example.png">
+                <shortdescription>Autodesk Example</shortdescription>
+            </image>
+        </figure>
+    </sidebyside>
+    <p>
+        Wall bounding functions are:
+        <md>
+            <mrow>
+                f(y) = \frac{ \cos \ y}{5} + \frac{2}{15} y + \frac{11}{4} \\
+            </mrow>
+            <mrow>
+                g(y) = \frac{ \cos \ y}{5} + \frac{2}{15} y + 3 \\
+            </mrow>
+            <mrow>
+                0 \le y \le 13
+            </mrow>
+        </md>
+    </p>
+    <p>
+        Base is 1/2cm thick (twice the wall thickness).
+    </p>
+    <p>
+        Capacity: <me> \pi \int_{1/2}^{13} [f(y)]^2 \ dy \approx \text{533.7mL} \approx \text{18.0oz} </me>
+    </p>
+    <p>
+        Amount of material used for printing: <me> \pi \int_{0}^{1/2} [g(y)]^2 \ dy + \pi \int_{1/2}^{13} ([g(y)]^2 - [f(y)]^2) \ dy \approx \text{90.4mL} \approx \text{3.1oz} </me>
+    </p>
+    </subsection>
+    <subsection xml:id="subsec-grading">
+    <title>Grading</title>
+    <p>Grading for this assignment will be broken down as follows.
+        <ul>
+            <li>
+                <p>20% - Successful completion of 2D cross-section in Desmos.</p>
+            </li>
+            <li>
+                <p>10% - Project meets required specifications (units, height, radius, volume).</p>
+            </li>
+            <li>
+                <p>40% - Accurate set up and evaluation of integrals representing cup capacity and amount of material used.</p>
+            </li>
+            <li>
+                <p>30% - Successful completion of 3D solid in Autodesk Fusion 360.</p>
+            </li>
+        </ul>
+    </p>
+    </subsection>
+    <subsection xml:id="subsec-nace-competencies">
+    <title>NACE Competencies</title>
+        <p>The National Association of Colleges and Employers have identified eight <url href="https://www.naceweb.org/career-readiness/competencies/career-readiness-defined#competencies">core competencies</url> that help individuals to develop career readiness. This assignment will give students an opportunity to focus on two of these competencies in particular.</p>
+    <p>
+        <ul>
+        <li>
+            <p><em>Critical Thinking</em>: Identify and respond to needs based upon an understanding of situational context and logical analysis of relevant information.</p>
+            <p>Successful completion of this assignment will require students to leverage their foundational functional understanding of algebra and precalculus in order to solve a variety of equations, identify corresponding points of intersection and accurately graph two-dimensional cross-sections whose corresponding three-dimensional volume meets the required parameters.</p>
+        </li>
+        <li>
+            <p><em>Technology</em>: Understand and leverage technologies ethically to enhance efficiencies, complete tasks, and accomplish goals.</p>   
+            <p>Critical to the successful completion of this assignment is the ability to learn, understand, and effectively employ the inherent tools provided through Desmos and Autodesk Fusion 360. This includes, but is not limited to, the ability to graph functions with appropriate domain restrictions, correctly evaluate integrals, and accurately generate 3D renderings that can be used for printing.</p>
+        </li>
+        </ul>
+    </p>
+        <p>Additionally, several other competencies, such as <em>Career &amp; Self-Development</em>, <em>Communication</em>, <em>Leadership</em>, and <em>Professionalism</em>, are likely to be further developed through student completion of this assignment.</p>
+    </subsection>
+    <conclusion>
+    <p>
+      This assignment was created by Benjamin Atchison for the CA-ROTEL PreTeXt Working Group at Framingham State University. It is licensed under a BY-NC-SA Creative Commons license.
+    </p>
+            <image width="20%" source="by-nc-sa.png">
+                <shortdescription>CC BY-NC-SA</shortdescription>
+            </image>
+    </conclusion>
+</section>
