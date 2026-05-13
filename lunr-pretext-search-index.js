@@ -55,6 +55,78 @@ var ptx_lunr_docs = [
   "body": " Mental Health Counseling Practicum: Recorded Role Play  Client Introductions and Consent   This assignment is designed to simulate the initial phase of a counseling session, focusing on client introductions and obtaining informed consent. Follow these instructions to successfully complete the role play.    NACE Career Readiness Competencies  This assignment supports development of the following NACE competencies:     Communication : Students will clearly and professionally introduce themselves, explain the counseling process, and discuss informed consent and confidentiality with a mock client.    Professionalism : Students will demonstrate professional demeanor, ethical awareness, preparedness, and appropriate conduct in a simulated counseling interaction.    Critical Thinking : Students will organize and deliver counseling information in a developmentally and contextually appropriate way while responding to client questions and concerns.       Assignment Learning Objective  To demonstrate professional and effective communication in an initial counseling interaction by establishing rapport, explaining the counseling process, discussing informed consent and confidentiality, and responding appropriately to mock client questions within a 10–15-minute time frame.    Preparation  Understand the Assignment: The role play involves introducing yourself to a mock client and discussing informed consent. You will be reviewed on professionalism, clarity, and adherence to assignment.  Prepare a Script: Draft an outline or script for your introduction, including:  Your name and role as the counselor.  A brief description of the counseling process and why you're having the session today.  Explanation of confidentiality and its limitations (e.g., harm to self\/others, court orders).  Invitation for the client to ask questions or voice concerns.    Find a Partner: Arrange for a peer, family member, or friend to act as your mock client. Share basic background information about the “client” (e.g., name, reason for seeking counseling) to provide context for the role play.    Recording the Role Play  Set Up Your Recording Environment:  Choose a quiet, distraction-free location with good lighting and audio quality.  Ensure the camera captures you from the waist up, maintaining a professional appearance.    Conduct the Role Play:  Start the recording by introducing the purpose of the session (e.g., “This is a demonstration of a 5-minute client introduction and informed consent discussion.”).  Follow your script while remaining natural and conversational.    Ensure the session includes:  Warm and professional greeting.  Explanation of your role as a counselor.  Clear description of informed consent and confidentiality.  Opportunity for the mock client to ask questions or confirm understanding.    Wrap Up:  Thank the mock client and provide a brief summary of what happens next (e.g., scheduling the next session, goals for future sessions).  Conclude the session and stop the recording.      Submission and Review  Submit your role play as instructed. Be prepared to discuss your approach and receive feedback during the seminar session.    Evaluation Criteria  Your role play will be evaluated based on the following criteria:  Professionalism: Demonstrating a respectful and empathetic demeanor, preparedness, appropriate attire, and a clear introduction.  Accuracy and Completeness: Providing a thorough explanation of the counseling process, informed consent, and confidentiality, including limitations.  Clarity and Communication: Effectively communicating the counseling process, informed consent, and confidentiality in a way that is understandable to the client.  Critical Thinking and Engagement: Encouraging client participation by inviting questions and responding appropriately.  Adherence to Time Frame: Keeping the role play within the 10 to 15 minute limit while covering all required components.      This assignment was created by Jodie Nierintz for the CA-ROTEL PreTeXt Working Group at Framingham State University. It is licensed under a BY-NC-SA Creative Commons license.   CC BY-NC-SA    "
 },
 {
+  "id": "statistical-thinking-activity",
+  "level": "1",
+  "url": "statistical-thinking-activity.html",
+  "type": "Section",
+  "number": "",
+  "title": "Statistics for the Natural Sciences: Statistical Thinking",
+  "body": " Statistics for the Natural Sciences: Statistical Thinking   This is an assignment for an introductory statistics course intendend for students pursuing a degree in the natural sciences.    Objectives  This activity highlights the statistical thinking mindset, where we observe several ways to quantitatively summarize data and then draw justified conclusions about a population.    Data Description  The below table reports the number of people who became very sick after contracting an illness, broken out by if they took a particular drug. We will refer to those who took the drug as the treatment group, and those who did not take the drug as the control group. Note that the drug was not randomly assigned in this setting. Does this drug work?   Drug Treatment and Sickness     Control  Treatment  Overall    Sick  253  402  655    Total  151,054  47,008  198,062       Calculate the proportions of the control group and the treatment group who became sick, and compare the proportions. Which group had a higher rate of sickness?      What other factors may we want to consider before concluding that the drug makes you more likely to get very sick after contracting the illness?      Including More Data  One additional factor we have access to is the age (younger or older) of the people. Below is a table that includes the data disaggregated by age group.   Drug Treatment, Age, and Sickness      Control   Treatment   Overall       Younger  Older  Younger  Older  Younger  Older     Sick  48  205  13  389  61  594     Total  147,612  3,442  25,536  21,472  173,148  24,912       Explore the data in Table 2 by computing several more proportions. In particular, compute the sickness rates for: (i) the younger control people, (ii) the younger treatment people, (iii) the older control people, and (iv) the older treated people.      Compute the proportion of older people in the control group and older people in the treated group      What do you notice about the proportions you just calculated? Do these results really show that the drug does not work?      NACE Competencies  This assignment fulfills NACE competencies XXX (for more information on NACE competencies, please see the document titled 'NACE Competencies').    This assignment was created by Njesa Totty for the CA-ROTEL PreTeXt Working Group at Framingham State University. It is licensed under a BY-NC-SA Creative Commons license.   CC BY-NC-SA    "
+},
+{
+  "id": "table-drug-data",
+  "level": "2",
+  "url": "statistical-thinking-activity.html#table-drug-data",
+  "type": "Table",
+  "number": "1",
+  "title": "Drug Treatment and Sickness",
+  "body": " Drug Treatment and Sickness     Control  Treatment  Overall    Sick  253  402  655    Total  151,054  47,008  198,062    "
+},
+{
+  "id": "sec-data-description-4",
+  "level": "2",
+  "url": "statistical-thinking-activity.html#sec-data-description-4",
+  "type": "Question",
+  "number": "2",
+  "title": "",
+  "body": "  Calculate the proportions of the control group and the treatment group who became sick, and compare the proportions. Which group had a higher rate of sickness?   "
+},
+{
+  "id": "sec-data-description-5",
+  "level": "2",
+  "url": "statistical-thinking-activity.html#sec-data-description-5",
+  "type": "Question",
+  "number": "3",
+  "title": "",
+  "body": "  What other factors may we want to consider before concluding that the drug makes you more likely to get very sick after contracting the illness?   "
+},
+{
+  "id": "table-age-drug",
+  "level": "2",
+  "url": "statistical-thinking-activity.html#table-age-drug",
+  "type": "Table",
+  "number": "4",
+  "title": "Drug Treatment, Age, and Sickness",
+  "body": " Drug Treatment, Age, and Sickness      Control   Treatment   Overall       Younger  Older  Younger  Older  Younger  Older     Sick  48  205  13  389  61  594     Total  147,612  3,442  25,536  21,472  173,148  24,912    "
+},
+{
+  "id": "sec-including-more-data-4",
+  "level": "2",
+  "url": "statistical-thinking-activity.html#sec-including-more-data-4",
+  "type": "Question",
+  "number": "5",
+  "title": "",
+  "body": "  Explore the data in Table 2 by computing several more proportions. In particular, compute the sickness rates for: (i) the younger control people, (ii) the younger treatment people, (iii) the older control people, and (iv) the older treated people.   "
+},
+{
+  "id": "sec-including-more-data-5",
+  "level": "2",
+  "url": "statistical-thinking-activity.html#sec-including-more-data-5",
+  "type": "Question",
+  "number": "6",
+  "title": "",
+  "body": "  Compute the proportion of older people in the control group and older people in the treated group   "
+},
+{
+  "id": "sec-including-more-data-6",
+  "level": "2",
+  "url": "statistical-thinking-activity.html#sec-including-more-data-6",
+  "type": "Question",
+  "number": "7",
+  "title": "",
+  "body": "  What do you notice about the proportions you just calculated? Do these results really show that the drug does not work?   "
+},
+{
   "id": "sec-volume-assignment",
   "level": "1",
   "url": "sec-volume-assignment.html",
@@ -68,7 +140,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-volume-assignment.html#desmos-example",
   "type": "Figure",
-  "number": "1",
+  "number": "8",
   "title": "",
   "body": " 2D region created in Desmos   Desmos Example   "
 },
@@ -77,7 +149,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-volume-assignment.html#autodesk-example",
   "type": "Figure",
-  "number": "2",
+  "number": "9",
   "title": "",
   "body": " 3D solid generated using Autodesk Fusion 360   Autodesk Example   "
 }
