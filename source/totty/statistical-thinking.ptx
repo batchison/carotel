@@ -8,129 +8,134 @@
     <title>Objectives</title>
     <p>This activity highlights the statistical thinking mindset, where we observe several ways to quantitatively summarize data and then draw justified conclusions about a population.</p>
   </subsection>
- <subsection xml:id="sec-data-description">
+  <subsection xml:id="sec-data-description">
     <title>Data Description</title>
-   <p>The below table reports the number of people who became very sick after contracting an illness, broken out by if they took a particular drug. We will refer to those who took the drug as the treatment group, and those who did not take the drug as the control group. Note that the drug was not randomly assigned in this setting. <alert>Does this drug work? </alert></p>
+    <p>The below table reports the number of people who became very sick after contracting an illness, broken out by if they took a particular drug. We will refer to those who took the drug as the treatment group, and those who did not take the drug as the control group. Note that the drug was not randomly assigned in this setting. <alert>Does this drug work? </alert></p>
 
-<table xml:id="table-drug-data">
-<title/>
-  <tabular>
-    <row>
-      <cell></cell>
-      <cell>Control</cell>
-      <cell>Treatment</cell>
-      <cell>Overall</cell>
-    </row>
+    <table xml:id="table-drug-data">
+    <title/>
+      <tabular>
+        <row>
+          <cell></cell>
+          <cell>Control</cell>
+          <cell>Treatment</cell>
+          <cell>Overall</cell>
+        </row>
 
-    <row>
-      <cell>Sick</cell>
-      <cell>253</cell>
-      <cell>402</cell>
-      <cell>655</cell>
-    </row>
+        <row>
+          <cell>Sick</cell>
+          <cell>253</cell>
+          <cell>402</cell>
+          <cell>655</cell>
+        </row>
 
-    <row>
-      <cell>Total</cell>
-      <cell>151,054</cell>
-      <cell>47,008</cell>
-      <cell>198,062</cell>
-    </row>
-  </tabular>
-</table>
+        <row>
+          <cell>Total</cell>
+          <cell>151,054</cell>
+          <cell>47,008</cell>
+          <cell>198,062</cell>
+        </row>
+      </tabular>
+    </table>
+    <exercises>
+      <title></title>
+      <exercise number="1">
+        <statement>
+          <p>
+            Calculate the proportions of the control group and the treatment group who became sick, and compare the proportions. Which group had a higher rate of sickness?
+          </p>
+          </statement>
+        </exercise>
 
-    <exercise>
-      <p>
-        <p>
-          Calculate the proportions of the control group and the treatment group who became sick, and compare the proportions. Which group had a higher rate of sickness?
-        </p>
-      </p>
-    </exercise>
-
-      <exercise>
-      <p>
-        <p>
-          What other factors may we want to consider before concluding that the drug makes you more likely to get very sick after contracting the illness?
-        </p>
-      </p>
-    </exercise>
-
+        <exercise number="2">
+          <statement>
+            <p>
+              What other factors may we want to consider before concluding that the drug makes you more likely to get very sick after contracting the illness?
+            </p>
+          </statement>
+        </exercise>
+      </exercises>
   </subsection>
-   <subsection xml:id="sec-including-more-data">
+
+  <subsection xml:id="sec-including-more-data">
     <title>Including More Data</title>
-      <p>One additional factor we have access to is the age (younger or older) of the people. Below is a table that includes the data disaggregated by age group.</p>
+    <p>One additional factor we have access to is the age (younger or older) of the people. Below is a table that includes the data disaggregated by age group.</p>
+    
+    <table xml:id="table-age-drug">
+      <title/>
+      <tabular>
+      <!-- Top header row -->
+      <row>
+          <cell></cell>
+          <cell>Control</cell>
+          <cell></cell>
+          <cell>Treatment</cell>
+          <cell></cell>
+          <cell>Overall</cell>
+          <cell></cell>
+        </row>
 
-        <table xml:id="table-age-drug">
-<title/>
-  <tabular>
-    <!-- Top header row -->
-    <row>
-      <cell></cell>
-      <cell>Control</cell>
-      <cell></cell>
-      <cell>Treatment</cell>
-      <cell></cell>
-      <cell>Overall</cell>
-      <cell></cell>
-    </row>
+        <!-- Subheader row -->
+        <row>
+          <cell></cell>
+          <cell>Younger</cell>
+          <cell>Older</cell>
+          <cell>Younger</cell>
+          <cell>Older</cell>
+          <cell>Younger</cell>
+          <cell>Older</cell>
+        </row>
 
-    <!-- Subheader row -->
-    <row>
-      <cell></cell>
-      <cell>Younger</cell>
-      <cell>Older</cell>
-      <cell>Younger</cell>
-      <cell>Older</cell>
-      <cell>Younger</cell>
-      <cell>Older</cell>
-    </row>
+        <!-- Data: Sick -->
+        <row>
+          <cell>Sick</cell>
+          <cell>48</cell>
+          <cell>205</cell>
+          <cell>13</cell>
+          <cell>389</cell>
+          <cell>61</cell>
+          <cell>594</cell>
+        </row>
 
-    <!-- Data: Sick -->
-    <row>
-      <cell>Sick</cell>
-      <cell>48</cell>
-      <cell>205</cell>
-      <cell>13</cell>
-      <cell>389</cell>
-      <cell>61</cell>
-      <cell>594</cell>
-    </row>
+        <!-- Data: Total -->
+        <row>
+          <cell>Total</cell>
+          <cell>147,612</cell>
+          <cell>3,442</cell>
+          <cell>25,536</cell>
+          <cell>21,472</cell>
+          <cell>173,148</cell>
+          <cell>24,912</cell>
+        </row>
+      </tabular>
+    </table>
 
-    <!-- Data: Total -->
-    <row>
-      <cell>Total</cell>
-      <cell>147,612</cell>
-      <cell>3,442</cell>
-      <cell>25,536</cell>
-      <cell>21,472</cell>
-      <cell>173,148</cell>
-      <cell>24,912</cell>
-    </row>
-  </tabular>
-</table>
+    <exercises>
+      <title></title>
+      <exercise number="3">
+        <statement>
+          <p>
+            Explore the data in Table 2 by computing several more proportions. In particular, compute the sickness rates for: (i) the younger control people, (ii) the younger treatment people, (iii) the older control people, and (iv) the older treated people.
+          </p>
+        </statement>
+      </exercise>
 
-    <exercise>
-      <p>
-        <p>
-          Explore the data in Table 2 by computing several more proportions. In particular, compute the sickness rates for: (i) the younger control people, (ii) the younger treatment people, (iii) the older control people, and (iv) the older treated people.
-        </p>
-      </p>
-    </exercise>
+      <exercise number="4">
+        <statement>
+          <p>
+            Compute the proportion of older people in the control group and older people in the treated group
+          </p>
+        </statement>
+      </exercise>
+      <exercise number="5">
+        <statement>
+          <p>
+            What do you notice about the proportions you just calculated? Do these results really show that the drug does not work?
+          </p>
+        </statement>
+      </exercise>
+    </exercises>
 
-    <exercise>
-      <p>
-        <p>
-          Compute the proportion of older people in the control group and older people in the treated group
-        </p>
-      </p>
-    </exercise>
-
-    <exercise>
-      <p>
-        <p>
-          What do you notice about the proportions you just calculated? Do these results really show that the drug does not work?
-        </p>
-      </p>
-    </exercise>
   </subsection>
   <subsection xml:id="sec-nace-stats">
     <title>NACE Competencies</title>
