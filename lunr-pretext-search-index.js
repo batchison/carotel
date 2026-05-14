@@ -46,6 +46,114 @@ var ptx_lunr_docs = [
   "body": " Professional Writing: The White Space   This is a sample assignment for students enrolled in a professional writing course.    Introduction  In a conventional resume, you present a narrative of your professional self. In your “White Space” project—a kind of “creative resume”—you can present a more expressive, imaginative version of your story.    Instructions  Taking a cue from Jenn DeLeon's essay \"The White Space\" , consider what's in your \"white space.\" What parts of your life aren't easily articulated in a resume, yet are essential to who you are today, and where you hope to be in the future?  You’ll create a short video in which you share (some aspect of) your professional self, creatively narrating a story about yourself—your key attributes, knowledge, attitudes, behaviors, interests, relationships, and\/or defining moments—that relates somehow to your professional goals. From your presentation, we should be able to get a sense of why you’re passionate about your field, how you became interested in a particular kind of work, and\/or what motivates you to pursue your dream. Although no one might see this “behind the scenes” text in your actual job search, it can help you think about what matters to you, and what has contributed to your professional development.  The specific form and content of the presentation is up to you. Your “White Space” project should relate in some way to your other employment materials and to your career goals.    Assignment Submission  You may use VoiceThread directly for video, or any platform you're comfortable with for recording additional media, such as ScreenPal , Zoom, PowerPoint (saved as an .mp4), or something else where you can then upload the file. If you're not comfortable appearing on video, you don't have to, but there must be both a visual component and your narration . Videos should be approximately 4–5 minutes long; videos shorter than 3.5 minutes won't receive full credit.    Examples from Past Student Work  Below is a list of what some students have done with this assignment in the past. You may decide to do something similar or something entirely different.    Share a story about a meaningful experience (e.g., getting fired from a restaurant on your first day; moving to the US and having to learn English as a child); a person\/people who has\/have influenced your career path (e.g., the story of four different people you’ve helped through your job at the library); or where you see yourself in 10 or 20 years (e.g., up-and-coming editor at a publishing house, with a corgi).  Create a visual collage that illustrates some aspect of college life (e.g., your job as an RA), your hobbies (e.g., your fashion inspirations), or your travels (e.g., study abroad in Ireland), and talk us through it.  Compose a poem or song (e.g., about your pay-the-bills job vs. your dream job; about realizing what really matters in life) and perform it, and provide some context.  Give us a tour of places that are central to your identity (e.g., specific places on campus, in your neighborhood, etc.), and tell us about your process.  Share a presentation about a meaningful experience (e.g., an internship teaching middle schoolers about nutrition; your job at an assisted living facility), expanding on each slide to give us a full picture.      Responding to Others  After the presentation due date, watch your classmates' videos. Respond to at least 2 of them with a brief question or comment. At least one of your responses should be to someone whose thread doesn't have any replies (if this exists when you respond). Although it's not required, it's a good idea to check back and see the responses you've gotten to your own presentation!    Due Dates  Presentation posts—due by 11:59 p.m. on Wednesday, 10\/15  Responses to classmates’ videos—due by 11:59 p.m. on Sunday, 10\/19 .    Grading  This assignment is worth a total of 6 points: presentations are worth 5 points; responses are worth 1 point.    NACE Competencies  The National Association of Colleges and Employers (NACE) defines eight competencies that help you develop career readiness and prepare you for success in the workplace and lifelong career management. In this assignment, you’ll focus on three:    Career & Self-Development : Show an awareness of own strengths and areas for development; identify areas for continual growth while pursuing and applying feedback; develop plans and goals for one’s future career.  Communication : Communicate in a clear and organized manner so that others can effectively understand.  Technology : Identify appropriate technology for completing specific tasks; quickly adapt to new or unfamiliar technologies.      This assignment was created by Colleen Coyne for the CA-ROTEL PreTeXt Working Group at Framingham State University. It is licensed under a BY-NC-SA Creative Commons license.    CC BY-NC-SA     "
 },
 {
+  "id": "sec-sample-exam",
+  "level": "1",
+  "url": "sec-sample-exam.html",
+  "type": "Section",
+  "number": "",
+  "title": "Introduction to Functions: Practice Exam",
+  "body": " Introduction to Functions: Practice Exam   This is a sample assessment for an introduction to functions course.      Create a table with at least two points and graph the following function. Then state the domain , range , and the equation of the horizontal asymptote .   NOTE: You MUST make your graph on a separate paper.    Create a table with at least two points and graph the following function. Then state the domain , range , and the equation of the vertical asymptote .   NOTE: You MUST make your graph on a separate paper.    Create a table with at least two points and graph the following function. Then state the domain , range , and the equation of the vertical asymptote .   NOTE: You MUST make your graph on a separate paper.    Rewrite each expression using exponential form.            Evaluate without a calculator:            Simplify using the properties of exponents .                     Rewrite each equation using the other form.                  Evaluate each logarithm.                     Solve each exponential equation.            Solve each logarithmic equation.            Solve each logarithmic equation after using log properties to write as a single logarithm.              NACE Competencies  This assignment fulfills NACE competencies 2, 3, and 6 (for more information on NACE competencies, please see the document titled 'NACE Competencies').    This assignment was created by Mark Morabito for the CA-ROTEL PreTeXt Working Group at Framingham State University. It is licensed under a BY-NC-SA Creative Commons license.    CC BY-NC-SA     "
+},
+{
+  "id": "sec-sample-exam-3-1",
+  "level": "2",
+  "url": "sec-sample-exam.html#sec-sample-exam-3-1",
+  "type": "Exercise",
+  "number": "1",
+  "title": "",
+  "body": " Create a table with at least two points and graph the following function. Then state the domain , range , and the equation of the horizontal asymptote .   NOTE: You MUST make your graph on a separate paper.  "
+},
+{
+  "id": "sec-sample-exam-3-2",
+  "level": "2",
+  "url": "sec-sample-exam.html#sec-sample-exam-3-2",
+  "type": "Exercise",
+  "number": "2",
+  "title": "",
+  "body": " Create a table with at least two points and graph the following function. Then state the domain , range , and the equation of the vertical asymptote .   NOTE: You MUST make your graph on a separate paper.  "
+},
+{
+  "id": "sec-sample-exam-3-3",
+  "level": "2",
+  "url": "sec-sample-exam.html#sec-sample-exam-3-3",
+  "type": "Exercise",
+  "number": "3",
+  "title": "",
+  "body": " Create a table with at least two points and graph the following function. Then state the domain , range , and the equation of the vertical asymptote .   NOTE: You MUST make your graph on a separate paper.  "
+},
+{
+  "id": "sec-sample-exam-3-4",
+  "level": "2",
+  "url": "sec-sample-exam.html#sec-sample-exam-3-4",
+  "type": "Exercise",
+  "number": "4",
+  "title": "",
+  "body": " Rewrite each expression using exponential form.          "
+},
+{
+  "id": "sec-sample-exam-3-5",
+  "level": "2",
+  "url": "sec-sample-exam.html#sec-sample-exam-3-5",
+  "type": "Exercise",
+  "number": "5",
+  "title": "",
+  "body": " Evaluate without a calculator:          "
+},
+{
+  "id": "sec-sample-exam-3-6",
+  "level": "2",
+  "url": "sec-sample-exam.html#sec-sample-exam-3-6",
+  "type": "Exercise",
+  "number": "6",
+  "title": "",
+  "body": " Simplify using the properties of exponents .                   "
+},
+{
+  "id": "sec-sample-exam-3-7",
+  "level": "2",
+  "url": "sec-sample-exam.html#sec-sample-exam-3-7",
+  "type": "Exercise",
+  "number": "7",
+  "title": "",
+  "body": " Rewrite each equation using the other form.                "
+},
+{
+  "id": "sec-sample-exam-3-8",
+  "level": "2",
+  "url": "sec-sample-exam.html#sec-sample-exam-3-8",
+  "type": "Exercise",
+  "number": "8",
+  "title": "",
+  "body": " Evaluate each logarithm.                   "
+},
+{
+  "id": "sec-sample-exam-3-9",
+  "level": "2",
+  "url": "sec-sample-exam.html#sec-sample-exam-3-9",
+  "type": "Exercise",
+  "number": "9",
+  "title": "",
+  "body": " Solve each exponential equation.          "
+},
+{
+  "id": "sec-sample-exam-3-10",
+  "level": "2",
+  "url": "sec-sample-exam.html#sec-sample-exam-3-10",
+  "type": "Exercise",
+  "number": "10",
+  "title": "",
+  "body": " Solve each logarithmic equation.          "
+},
+{
+  "id": "sec-sample-exam-3-11",
+  "level": "2",
+  "url": "sec-sample-exam.html#sec-sample-exam-3-11",
+  "type": "Exercise",
+  "number": "11",
+  "title": "",
+  "body": " Solve each logarithmic equation after using log properties to write as a single logarithm.          "
+},
+{
   "id": "sec-recorded-role-play",
   "level": "1",
   "url": "sec-recorded-role-play.html",
