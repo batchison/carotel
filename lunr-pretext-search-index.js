@@ -37,6 +37,195 @@ var ptx_lunr_docs = [
   "body": " Digital Humanities: AI Prompt Engineering   This assignment challenges you to move beyond simple chatbot queries and engage in the iterative, strategic process of prompt engineering.    Introduction  The purpose of this assignment is two-fold. First, it is to give you an opportunity to think more deeply about the digital humanities, and to apply that thinking to creating an item that is useful and interesting to you. Second, it is a chance to practice working effectively with artificial intelligence chatbots and AI prompting techniques in an in-depth way.    NACE Competencies   The National Association of Colleges and Employers have identified eight core competencies that will help you develop career readiness. This assignment will give you an opportunity to focus on three of these competencies in particular: Critical Thinking , Technology , and Communication .    Critical Thinking  You will have an opportunity to engage in critical thinking as you develop SMART(ER) goals, informed by 5W+H, and as you critically evaluate AI responses.    Technology  Understand and leverage technologies ethically to enhance efficiencies, complete tasks, and accomplish goals.    Communication  Clearly and effectively exchange information, ideas, facts, and perspectives with persons inside and outside of an organization.     Task   In this assignment you’ll create an item that engages with a digital humanities issue through AI prompting. You should choose something that is of genuine interest and value to you. I encourage you to be creative here. For example,    Examples    You might develop a lesson plan, class exercise, or formal assignment for a K-12 classroom.  You could develop an inclusive business plan.  You could create an imaginative text, such as a play or short story, that engages with digital humanities.      Requirements  Whatever you choose, please make this a text-based creation of approximately 750-1000 words , since prompting for images and other media involves other considerations beyond what we will be discussing at this time. Your creation—and the prompt itself— should demonstrate a clear understanding of your chosen digital humanities issue and a clear grasp of what AI can do to help us think about this issue.     Submission and Grade Details   Since the product itself will be automatically generated, you will also be assessed on the quality of your prompt, your interaction with your AI chatbot, and your reflection. You will need to attach the following as one document :    Attachments    Your created item.  Your full prompt, using the CROFTC template, with attention to precise grammage ( CROFTC Prompt Template ).  Response Analysis Checklist ( AI Response Analysis Checklist ).  A brief summary of your chatbot conversation that shows iteration and refinement (around 100-150 words).  A personal reflection of approximately 300 words on your process of thinking through your question. This personal reflection should be entirely in YOUR OWN WORDS.      Due Date  Monday, November 10 @ 11:59pm.     Rubric    Criteria  Proficient  Competent  Developing  Pts    Item  An effective AI item that clearly engages with the topic.  A generally effective AI item that somewhat engages with topic.  AI item is not particularly effective.  20 pts    Prompt  Effective prompt using CROFTC, SMART, and 5W+H. Precise grammage.  Generally effective prompt; somewhat derived from SMART and 5W+H.  Ineffective prompt; not clearly structured.  25 pts    Response Analysis  Effectively evaluates initial response, noting key issues for adjustment.  Somewhat effectively evaluates initial response.  Ineffectively or incompletely evaluates response.  20 pts    Conversation Summary  Clearly depicts iteration and refinement of an initial prompt.  Generally depicts engagement and some refinement.  Fails to depict full engagement or iteration.  10 pts    Reflection  In-depth reflection on process and objective development.  Generally clear reflection on process.  Somewhat unclear or incomplete reflection.  25 pts       This assignment was created by Bartholomew Brinkman for the CA-ROTEL PreTeXt Working Group at Framingham State University. It is licensed under a BY-NC-SA Creative Commons license.    CC BY-NC-SA     "
 },
 {
+  "id": "asgn-artistic-styles",
+  "level": "1",
+  "url": "asgn-artistic-styles.html",
+  "type": "Section",
+  "number": "",
+  "title": "Color and Design: Exploring Different Artistic Styles",
+  "body": " Color and Design: Exploring Different Artistic Styles   This is a collection of four sample assignments for a course in color and design. Each assignment includes a series of sample artistic pieces, followed by the accompanying required task and the related core competencies that are developed through completion of the assignment.    Positive and Negative Space   Creating value, balancing positive and negative space  Artist inspiration: Escher      photo of student work       photo of student work       photo of student work       photo of student work     You are developing a piece that balances positive and negative space. Use class time to work continuously - use pen and ink with cut paper -see exercise shapes-, incorporating perceived mistakes, and use visual communication vocabulary to document your choices. Use the lecture information and handouts in class to decide when the project is complete. After completing the project, we will hold a written critique to gather feedback from peers. They have the option to go back into their project with the feedback of instructor and peers.   Competencies:  Written Communication  Critical Thinking  Self Development - awareness of strengths and areas for development, pursuing and applying feedback, multi-tasking in a fast-paced environment  Professionalism - Being present and prepared, prioritizing and completing tasks to accomplish goals.    Imagined Landscape   Creating a landscape with believable depth using color, overlap, value, scale, and space  Artist inspiration: James Jean, Renoir      photo of student work       photo of student work       photo of student work       photo of student work       photo of student work     You have a limited timeframe to sketch an idea for an imaginary landscape. Then you will paint the scene with acrylic paint! The scene must incorporate \"depth creating\" visual choices. In a verbal critique, you will present your idea to peers with a pencil sketch. The class will give you feedback. You are encouraged to discuss successful choices in class as you complete the painting in the open studio environment.   Competencies:  Critical Thinking  Verbal Communication  Self Development - awareness of strengths and areas for development, pursuing and applying feedback, multi-tasking in a fast-paced environment, maintaining a successful personal brand while providing critical feedback  Professionalism - Being present and prepared, prioritizing and completing tasks to accomplish goals.    Shape and Color Composition   Creating abstract, shallow depth in a space using shape without traditional landscape perspective  Artist inspiration: James Jean      photo of student work       photo of student work       photo of student work       photo of student work     Choose one shape and, using the principles and elements of design, create an interesting composition with depth. Use color theory to add depth, contrast, and focal points. Color choices will be a response to the placement of previous hues -mixing one color at a time. You will decide when an area will be repainted with a different hue as the painting develops. No color studies are made before beginning the final painting, you are reacting to color and composition on the painted surface.   Competencies:  Critical Thinking  Verbal Communication  Self Development- awareness of strengths and areas for development, pursuing and applying feedback, multi-tasking in a fast-paced environment, maintaining a successful personal brand while providing critical feedback  Professionalism - Being present and prepared, prioritizing and completing tasks to accomplish goals.    Self Portrait   Creating a self portrait communicating energy with drawing technique and color theory  Artist inspiration: Picasso      photo of student work       photo of student work       photo of student work       photo of student work       photo of student work       photo of student work       photo of student work     You have a limited timeframe to develop three self portraits in three drawing styles- grid drawing, blind contour drawing, and drawing from life. Then, you will choose one style to develop into an acrylic painting. You must explain, through written critique, what the style, color, and composition convey to the viewer about you.   Competencies:  Written Communication  Critical Thinking  Self Development - pursuing and applying feedback, multi-tasking in a fast-paced environment, maintaining a successful personal brand while providing critical feedback  Professionalism - being present and prepared, prioritizing and completing tasks to accomplish goals.    This assignment was created by Melanie Cataldo for the CA-ROTEL PreTeXt Working Group at Framingham State University. It is licensed under a BY-NC-SA Creative Commons license.    CC BY-NC-SA     "
+},
+{
+  "id": "figbw1",
+  "level": "2",
+  "url": "asgn-artistic-styles.html#figbw1",
+  "type": "Figure",
+  "number": "1",
+  "title": "",
+  "body": "   photo of student work   "
+},
+{
+  "id": "figbw2",
+  "level": "2",
+  "url": "asgn-artistic-styles.html#figbw2",
+  "type": "Figure",
+  "number": "2",
+  "title": "",
+  "body": "   photo of student work   "
+},
+{
+  "id": "figbw3",
+  "level": "2",
+  "url": "asgn-artistic-styles.html#figbw3",
+  "type": "Figure",
+  "number": "3",
+  "title": "",
+  "body": "   photo of student work   "
+},
+{
+  "id": "figbw4",
+  "level": "2",
+  "url": "asgn-artistic-styles.html#figbw4",
+  "type": "Figure",
+  "number": "4",
+  "title": "",
+  "body": "   photo of student work   "
+},
+{
+  "id": "figimaginedland1",
+  "level": "2",
+  "url": "asgn-artistic-styles.html#figimaginedland1",
+  "type": "Figure",
+  "number": "5",
+  "title": "",
+  "body": "   photo of student work   "
+},
+{
+  "id": "figimaginedland2",
+  "level": "2",
+  "url": "asgn-artistic-styles.html#figimaginedland2",
+  "type": "Figure",
+  "number": "6",
+  "title": "",
+  "body": "   photo of student work   "
+},
+{
+  "id": "figimaginedland3",
+  "level": "2",
+  "url": "asgn-artistic-styles.html#figimaginedland3",
+  "type": "Figure",
+  "number": "7",
+  "title": "",
+  "body": "   photo of student work   "
+},
+{
+  "id": "figimaginedland4",
+  "level": "2",
+  "url": "asgn-artistic-styles.html#figimaginedland4",
+  "type": "Figure",
+  "number": "8",
+  "title": "",
+  "body": "   photo of student work   "
+},
+{
+  "id": "figimaginedland5",
+  "level": "2",
+  "url": "asgn-artistic-styles.html#figimaginedland5",
+  "type": "Figure",
+  "number": "9",
+  "title": "",
+  "body": "   photo of student work   "
+},
+{
+  "id": "figshapepaint1",
+  "level": "2",
+  "url": "asgn-artistic-styles.html#figshapepaint1",
+  "type": "Figure",
+  "number": "10",
+  "title": "",
+  "body": "   photo of student work   "
+},
+{
+  "id": "figshapepaint2",
+  "level": "2",
+  "url": "asgn-artistic-styles.html#figshapepaint2",
+  "type": "Figure",
+  "number": "11",
+  "title": "",
+  "body": "   photo of student work   "
+},
+{
+  "id": "figshapepaint3",
+  "level": "2",
+  "url": "asgn-artistic-styles.html#figshapepaint3",
+  "type": "Figure",
+  "number": "12",
+  "title": "",
+  "body": "   photo of student work   "
+},
+{
+  "id": "figshapepaint4",
+  "level": "2",
+  "url": "asgn-artistic-styles.html#figshapepaint4",
+  "type": "Figure",
+  "number": "13",
+  "title": "",
+  "body": "   photo of student work   "
+},
+{
+  "id": "figportrait1",
+  "level": "2",
+  "url": "asgn-artistic-styles.html#figportrait1",
+  "type": "Figure",
+  "number": "14",
+  "title": "",
+  "body": "   photo of student work   "
+},
+{
+  "id": "figportrait2",
+  "level": "2",
+  "url": "asgn-artistic-styles.html#figportrait2",
+  "type": "Figure",
+  "number": "15",
+  "title": "",
+  "body": "   photo of student work   "
+},
+{
+  "id": "figportrait3",
+  "level": "2",
+  "url": "asgn-artistic-styles.html#figportrait3",
+  "type": "Figure",
+  "number": "16",
+  "title": "",
+  "body": "   photo of student work   "
+},
+{
+  "id": "figportrait4",
+  "level": "2",
+  "url": "asgn-artistic-styles.html#figportrait4",
+  "type": "Figure",
+  "number": "17",
+  "title": "",
+  "body": "   photo of student work   "
+},
+{
+  "id": "figportrait5",
+  "level": "2",
+  "url": "asgn-artistic-styles.html#figportrait5",
+  "type": "Figure",
+  "number": "18",
+  "title": "",
+  "body": "   photo of student work   "
+},
+{
+  "id": "figportrait6",
+  "level": "2",
+  "url": "asgn-artistic-styles.html#figportrait6",
+  "type": "Figure",
+  "number": "19",
+  "title": "",
+  "body": "   photo of student work   "
+},
+{
+  "id": "figportrait7",
+  "level": "2",
+  "url": "asgn-artistic-styles.html#figportrait7",
+  "type": "Figure",
+  "number": "20",
+  "title": "",
+  "body": "   photo of student work   "
+},
+{
   "id": "sec-white-space-presentation",
   "level": "1",
   "url": "sec-white-space-presentation.html",
@@ -185,7 +374,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "statistical-thinking-activity.html#table-drug-data",
   "type": "Table",
-  "number": "1",
+  "number": "21",
   "title": "",
   "body": "     Control  Treatment  Overall    Sick  253  402  655    Total  151,054  47,008  198,062    "
 },
@@ -212,7 +401,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "statistical-thinking-activity.html#table-age-drug",
   "type": "Table",
-  "number": "2",
+  "number": "22",
   "title": "",
   "body": "      Control   Treatment   Overall       Younger  Older  Younger  Older  Younger  Older     Sick  48  205  13  389  61  594     Total  147,612  3,442  25,536  21,472  173,148  24,912    "
 },
@@ -257,7 +446,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-volume-assignment.html#desmos-example",
   "type": "Figure",
-  "number": "3",
+  "number": "23",
   "title": "",
   "body": " 2D region created in Desmos   Desmos Example   "
 },
@@ -266,7 +455,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-volume-assignment.html#autodesk-example",
   "type": "Figure",
-  "number": "4",
+  "number": "24",
   "title": "",
   "body": " 3D solid generated using Autodesk Fusion 360   Autodesk Example   "
 }
