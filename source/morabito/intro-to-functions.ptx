@@ -5,20 +5,20 @@
     <introduction>
         <p> This is a sample assessment for an introduction to functions course.</p>
     </introduction>
-<!--  <subsection xml:id="sec-exercises">
-  <title>Exercises</title>-->
- <exercises>
+<subsection xml:id="sec-morabito-exercises">
+  <title>Exercises</title>
+  <exercises>
   <exercise>
     <p>
       Create a table with at least two points and graph the following function. Then state the <em>domain</em>, <em>range</em>, and the equation of the <em>horizontal asymptote</em>.
-      <me>f(x) = 2^{x-1} + 3</me>
     </p>
+    <md>f(x) = 2^{x-1} + 3</md>
     <p>NOTE: You MUST make your graph on a separate paper.</p>
   </exercise>
   <exercise>
     <p>
       Create a table with at least two points and graph the following function. Then state the <em>domain</em>, <em>range</em>, and the equation of the <em>vertical asymptote</em>.
-      <me>g(x) = \log_2(x)</me>
+      <md>g(x) = \log_2(x)</md>
     </p>
     <p>NOTE: You MUST make your graph on a separate paper.</p>
   </exercise>
@@ -26,134 +26,165 @@
   <exercise>
     <p>
       Create a table with at least two points and graph the following function. Then state the <em>domain</em>, <em>range</em>, and the equation of the <em>vertical asymptote</em>.
-            <me>h(x) = \log_3(x-4) + 2</me>
+            <md>h(x) = \log_3(x-4) + 2</md>
     </p>
     <p>NOTE: You MUST make your graph on a separate paper.</p>
   </exercise>
 
   <exercise>
     <p>Rewrite each expression using exponential form.</p>
+    <task>
     <p>
-    <task>
       <m>\log_2 16 = x</m>
+    </p>
     </task>
     <task>
+    <p>
       <m>\log_5\left(\frac{1}{125}\right) = x</m>
-    </task>
     </p>
+    </task>
   </exercise>
 
   <exercise>
     <p> Evaluate without a calculator:</p>
+    <task>
     <p>
-    <task>
       <m>\log_4 64</m>
+    </p>
     </task>
     <task>
+    <p>
       <m>\log_{10} 0.01</m>
-    </task>
     </p>
+    </task>
   </exercise>
 
   <exercise>
-    <p>
-      Simplify using the <em>properties of exponents</em>.</p>
-    <p>
+    <p>Simplify using the <em>properties of exponents</em>.</p>
     <task>
+    <p>
       <m>x^3 \cdot x^5</m>
-    </task>
-    <task>
-      <m>\frac{a^9}{a^4}</m>
-    </task>
-    <task>
-      <m>(2x^3)^4</m>
-    </task>
-    <task>
-      <m>(x^2y^3)^2</m>
-    </task>
-    <task>
-      <m>\frac{5^6}{5^{-2}}</m>
-    </task>
     </p>
+    </task>
+    <task>
+    <p>
+      <m>\frac{a^9}{a^4}</m>
+    </p>
+    </task>
+    <task>
+    <p>
+      <m>(2x^3)^4</m>
+    </p>
+    </task>
+    <task>
+    <p>
+      <m>(x^2y^3)^2</m>
+    </p>
+    </task>
+    <task>
+    <p>
+      <m>\frac{5^6}{5^{-2}}</m>
+    </p>
+    </task>
   </exercise>
 
   <exercise>
     <p>Rewrite each equation using the other form.</p>
+    <task>
     <p>
-    <task>
       <m>3^4 = 81</m>
-    </task>
-    <task>
-      <m>\log_2 16 = 4</m>
-    </task>
-    <task>
-      <m>\log_5 125 = 3</m>
-    </task>
-    <task>
-      <m>10^2 = 100</m>
-    </task>
     </p>
+    </task>
+    <task>
+    <p>
+      <m>\log_2 16 = 4</m>
+    </p>
+    </task>
+    <task>
+    <p>
+      <m>\log_5 125 = 3</m>
+    </p>
+    </task>
+    <task>
+    <p>
+      <m>10^2 = 100</m>
+    </p>
+    </task>
   </exercise>
 
   <exercise>
     <p>Evaluate each logarithm.</p>
+    <task>
     <p>
-    <task>
       <m>\log_{10} 1000</m>
-    </task>
-    <task>
-      <m>\log_2 32</m>
-    </task>
-    <task>
-      <m>\log_3 81</m>
-    </task>
-    <task>
-      <m>\log_4 16</m>
-    </task>
-    <task>
-      <m>\log_5\left(\frac{1}{25}\right)</m>
-    </task>
     </p>
+    </task>
+    <task>
+    <p>
+      <m>\log_2 32</m>
+    </p>
+    </task>
+    <task>
+    <p>
+      <m>\log_3 81</m>
+    </p>
+    </task>
+    <task>
+    <p>
+      <m>\log_4 16</m>
+    </p>
+    </task>
+    <task>
+    <p>
+      <m>\log_5\left(\frac{1}{25}\right)</m>
+    </p>
+    </task>
   </exercise>
 
   <exercise>
     <p>Solve each exponential equation.</p>
+    <task>
     <p>
-    <task>
       <m>2^x = 16</m>
+     </p> 
     </task>
     <task>
+    <p>
       <m>5^{x-1} = 25</m>
-    </task>
      </p> 
+    </task>
   </exercise>
 
   <exercise>
     <p>Solve each logarithmic equation.</p>
+    <task>
     <p>
-    <task>
       <m>\log_2(x) = 5</m>
+    </p>
     </task>
     <task>
+    <p>
       <m>\log(x-3) = 2</m>
-    </task>
     </p>
+    </task>
   </exercise>
 
   <exercise>
     <p>Solve each logarithmic equation after using log properties to write as a single logarithm.</p>
+    <task>
     <p>
-    <task>
       <m>\log_2(x) + \log_2(5) = 3</m>
+    </p>
     </task>
     <task>
+    <p>
       <m>\log(x-3) - \log(4) = 1</m>
-    </task>
     </p>
+    </task>
   </exercise>
 </exercises>
 
-<!--</subsection>-->
+</subsection>
 
  <subsection xml:id="sec-morabito-nace">
     <title>NACE Competencies</title>
