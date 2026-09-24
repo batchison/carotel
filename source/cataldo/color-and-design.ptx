@@ -48,33 +48,170 @@
     <p>Competencies: </p>
     <p>Written Communication</p> 
     <p>Critical Thinking</p> 
-    <p>Self Development- awareness of strengths and areas for development, pursuing and applying feedback, multi-tasking in a fast-paced environment</p>
+    <p>Self Development - awareness of strengths and areas for development, pursuing and applying feedback, multi-tasking in a fast-paced environment</p>
     <p>Professionalism - Being present and prepared, prioritizing and completing tasks to accomplish goals.</p>
   </worksheet>
 
-<!--  <subsection xml:id="asgn1-imagined-landscape">
+  <worksheet xml:id="asgn1-imagined-landscape">
     <title>Imagined Landscape</title>
     <introduction>
       <p>Creating a landscape with believable depth using color, overlap, value, scale, and space</p>
       <p>Artist inspiration: James Jean, Renoir</p>
     </introduction>
-  </subsection>
 
-  <subsection xml:id="asgn1-shape-and-color-composition">
+    <figure xml:id="figimaginedland1">
+    <caption></caption>
+    <image source="imagineland1.jpg" width="55%"> 
+    <shortdescription>photo of student work</shortdescription>
+    </image>
+    </figure>
+
+    <figure xml:id="figimaginedland2">
+    <caption></caption>
+    <image source="imagineland2.jpg" width="55%"> 
+    <shortdescription>photo of student work</shortdescription>
+    </image>
+    </figure>
+
+    <figure xml:id="figimaginedland3">
+    <caption></caption>
+    <image source="imagineland3.jpg" width="55%"> 
+    <shortdescription>photo of student work</shortdescription>
+    </image>
+    </figure>
+
+    <figure xml:id="figimaginedland4">
+    <caption></caption>
+    <image source="imagineland4.jpg" width="55%"> 
+    <shortdescription>photo of student work</shortdescription>
+    </image>
+    </figure>
+
+    <figure xml:id="figimaginedland5">
+    <caption></caption>
+    <image source="imaginedland5.jpg" width="55%"> 
+    <shortdescription>photo of student work</shortdescription>
+    </image>
+    </figure>
+
+    <blockquote> 
+      <p>You have a limited timeframe to sketch an idea for an imaginary landscape. Then you will paint the scene with acrylic paint! The scene must incorporate "depth creating" visual choices. In a verbal critique, you will present your idea to peers with a pencil sketch.  The class will give you feedback. You are encouraged to discuss successful choices in class as you complete the painting in the open studio environment.</p>
+    </blockquote>
+    
+    <p>Competencies:</p> 
+    <p>Critical Thinking</p>
+    <p>Verbal Communication</p> 
+    <p>Self Development - awareness of strengths and areas for development, pursuing and applying feedback, multi-tasking in a fast-paced environment, maintaining a successful personal brand while providing critical feedback</p>
+    <p>Professionalism - Being present and prepared, prioritizing and completing tasks to accomplish goals.</p> 
+</worksheet>
+
+<worksheet xml:id="asgn1-shape-and-color-composition">
     <title>Shape and Color Composition</title>
     <introduction>
       <p>Creating abstract, shallow depth in a space using shape without traditional landscape perspective</p>
       <p>Artist inspiration: James Jean</p> 
     </introduction>
-  </subsection>
 
-  <subsection xml:id="asgn1-self-portrait">
+    <figure xml:id="figshapepaint1">
+    <caption></caption>
+    <image source="shapepaint1.jpg" width="55%"> <shortdescription>photo of student work</shortdescription>
+    </image>
+    </figure>
+
+    <figure xml:id="figshapepaint2">
+    <caption></caption>
+    <image source="shapepaint2.jpg" width="55%"> <shortdescription>photo of student work</shortdescription>
+    </image>
+    </figure>
+
+    <figure xml:id="figshapepaint3">
+    <caption></caption>
+    <image source="shapepaint3.jpg" width="55%"> <shortdescription>photo of student work
+    </shortdescription>
+    </image>
+    </figure>
+
+    <figure xml:id="figshapepaint4">
+    <caption></caption>
+    <image source="shapepaint4.jpg" width="55%"> <shortdescription>photo of student work</shortdescription>
+    </image>
+    </figure>
+
+    <blockquote> 
+      <p>Choose one shape and, using the principles and elements of design, create an interesting composition with depth. Use color theory to add depth, contrast, and focal points. Color choices will be a response to the placement of previous hues -mixing one color at a time. You will decide when an area will be repainted with a different hue as the painting develops. No color studies are made before beginning the final painting, you are reacting to color and composition on the painted surface.</p>
+    </blockquote>
+      <p>Competencies:</p>
+      <p>Critical Thinking</p>
+      <p>Verbal Communication</p>
+      <p>Self Development- awareness of strengths and areas for development, pursuing and applying feedback, multi-tasking in a fast-paced environment, maintaining a successful personal brand while providing critical feedback</p>
+      <p>Professionalism - Being present and prepared, prioritizing and completing tasks to accomplish goals.</p> 
+  </worksheet>
+
+  <worksheet xml:id="asgn1-self-portrait">
     <title>Self Portrait</title>
     <introduction>
     <p>Creating a self portrait communicating energy with drawing technique and color theory</p>
     <p>Artist inspiration: Picasso</p>
     </introduction>
-  </subsection>-->
+
+    <figure xml:id="figportrait1">
+    <caption></caption>
+    <image source="portrait1.jpg" width="55%"> 
+    <shortdescription>photo of student work</shortdescription>
+    </image>
+    </figure>
+
+    <figure xml:id="figportrait2">
+    <caption></caption>
+    <image source="portrait2.jpg" width="55%"> 
+    <shortdescription>photo of student work</shortdescription>
+    </image>
+    </figure>
+
+    <figure xml:id="figportrait3">
+    <caption></caption>
+    <image source="portrait3.jpg" width="55%"> 
+    <shortdescription>photo of student work</shortdescription>
+    </image>
+    </figure>
+
+    <figure xml:id="figportrait4">
+    <caption></caption>
+    <image source="portrait4.jpg" width="55%"> 
+    <shortdescription>photo of student work</shortdescription>
+    </image>
+    </figure>
+
+    <figure xml:id="figportrait5">
+    <caption></caption>
+    <image source="portrait5.jpg" width="55%"> 
+    <shortdescription>photo of student work</shortdescription>
+    </image>
+    </figure>
+
+    <figure xml:id="figportrait6">
+    <caption></caption>
+    <image source="portrait6.jpg" width="55%"> 
+    <shortdescription>photo of student work</shortdescription>
+    </image>
+    </figure>
+
+    <figure xml:id="figportrait7">
+    <caption></caption>
+    <image source="portrait7.jpg" width="55%"> 
+    <shortdescription>photo of student work</shortdescription>
+    </image>
+    </figure>
+
+    <blockquote> 
+      <p>You have a limited timeframe to develop three self portraits in three drawing styles- grid drawing, blind contour drawing, and drawing from life. Then, you will choose one style to develop into an acrylic painting. You must explain, through written critique, what the style, color, and composition convey to the viewer about you.</p>
+    </blockquote>
+      <p>Competencies:</p>
+      <p>Written Communication</p>
+      <p>Critical Thinking</p>
+      <p>Self Development - pursuing and applying feedback, multi-tasking in a fast-paced environment, maintaining a successful personal brand while providing critical feedback</p>
+      <p>Professionalism - being present and prepared, prioritizing and completing tasks to accomplish goals.</p> 
+</worksheet>
 
   <conclusion>
     <p>
