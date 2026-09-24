@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- When creating a new activity, make a copy of this file with appropriate name -->
+<worksheet>
+  <title>Imagined Landscape</title>
+
+  <!-- Optional introduction -->
+  <introduction>
+    <p>
+     Creating a landscape with believable depth using color, overlap, value, scale, and space
+    </p>
+    <p>Artist inspiration: James Jean, Renoir</p>
+  </introduction>
+
+  <figure xml:id="figimaginedlands">
+  <caption></caption>
+  <image source="imaginelands.jpg" width="55%"> 
+  <shortdescription>photo of student work
+  </shortdescription>
+  </image>
+  </figure>
+
+  <figure xml:id="figimaginedland2">
+  <caption></caption>
+  <image source="imagineland2.jpg" width="55%"> 
+  <shortdescription>photo of student work
+  </shortdescription>
+  </image>
+  </figure>
+
+  <figure xml:id="figimaginedland3">
+  <caption></caption>
+  <image source="imagineland3.jpg" width="55%"> 
+  <shortdescription>photo of student work
+  </shortdescription>
+  </image>
+  </figure>
+
+  <figure xml:id="figimaginedland4">
+  <caption></caption>
+  <image source="imagineland4.jpg" width="55%"> 
+  <shortdescription>photo of student work
+  </shortdescription>
+  </image>
+  </figure>
+
+  <figure xml:id="figimaginedland5">
+  <caption></caption>
+  <image source="imaginedland5.jpg" width="55%"> 
+  <shortdescription>photo of student work
+  </shortdescription>
+  </image>
+  </figure>
+
+  <blockquote> 
+        <p>You have a limited timeframe to sketch an idea for an imaginary landscape. Then you will paint the scene with acrylic paint! The scene must incorporate "depth creating" visual choices. In a verbal critique, you will present your idea to peers with a pencil sketch.  The class will give you feedback. You are encouraged to discuss successful choices in class as you complete the painting in the open studio environment.</p></blockquote>
+        <p>Competencies:</p> 
+        <p>Critical Thinking</p>
+        <p>Verbal Communication</p> 
+        <p>Self Development- awareness of strengths and areas for development, pursuing and applying feedback, multi-tasking in a fast-paced environment, maintaining a successful personal brand while providing critical feedback</p>
+        <p>Professionalism - Being present and prepared, prioritizing and completing tasks to accomplish goals.</p> 
+
+
+</worksheet>

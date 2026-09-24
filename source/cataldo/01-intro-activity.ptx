@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- When creating a new activity, make a copy of this file with appropriate name -->
+<worksheet xml:id="activity-01-intro-activity">  
+<title>Positive and Negative Space</title>
+
+  <!-- Optional introduction -->
+  <introduction>
+    <p>
+      Creating value, balancing positive and negative space
+    </p>
+    <p> Artist inspiration: Escher</p>
+  </introduction>
+
+ <figure xml:id="figbw">
+  <caption></caption>
+  <image source="bw.jpg" width="55%">
+  <shortdescription>photo of student work
+  </shortdescription>
+  </image>
+</figure>
+
+ <figure xml:id="figbw2">
+  <caption></caption>
+  <image source="bw2.jpg" width="55%">
+  <shortdescription>photo of student work
+  </shortdescription>  
+  </image>
+</figure>
+
+<figure xml:id="figbw3">
+  <caption></caption>
+  <image source="bw3.jpg" width="55%"> 
+  <shortdescription>photo of student work
+  </shortdescription>
+  </image>
+</figure>
+
+<figure xml:id="figbw4">
+  <caption></caption>
+  <image source="bw4.jpg" width="55%"> 
+  <shortdescription>photo of student work
+  </shortdescription>
+  </image>
+</figure>
+
+<blockquote> 
+       <p>You are developing a piece that balances positive and negative space. Use class time to work continuously - use pen and ink with cut paper -see exercise shapes-, incorporating perceived mistakes, and use visual communication vocabulary to document your choices. Use the lecture information and handouts in class to decide when the project is complete. After completing the project, we will hold a written critique to gather feedback from peers. They have the option to go back into their project with the feedback of instructor and peers.  </p></blockquote>
+
+       <p>Competencies: </p>
+        <p>Written Communication</p> 
+        <p>Critical Thinking</p> 
+        <p>Self Development- awareness of strengths and areas for development, pursuing and applying feedback, multi-tasking in a fast-paced environment</p>
+        <p>Professionalism - Being present and prepared, prioritizing and completing tasks to accomplish goals.</p> 
+        
+
+</worksheet>

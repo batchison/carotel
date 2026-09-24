@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- When creating a new activity, make a copy of this file with appropriate name -->
+<worksheet>
+  <title>Self Portrait</title>
+
+  <!-- Optional introduction -->
+  <introduction>
+    <p>
+      Creating a self portrait communicating energy with drawing technique and color theory
+    </p>
+    <p>Artist inspiration: Picasso</p>
+    
+  </introduction>
+
+<figure xml:id="figportrait">
+  <caption></caption>
+  <image source="portrait.jpg" width="55%"> 
+    <shortdescription>photo of student work
+  </shortdescription>
+  </image>
+</figure>
+
+<figure xml:id="figportrait2">
+  <caption></caption>
+  <image source="portrait2.jpg" width="55%"> 
+    <shortdescription>photo of student work
+  </shortdescription>
+  </image>
+</figure>
+
+<figure xml:id="figportrait3">
+  <caption></caption>
+  <image source="portrait3.jpg" width="55%"> 
+    <shortdescription>photo of student work
+  </shortdescription>
+</image>
+</figure>
+
+<figure xml:id="figportrait4">
+  <caption></caption>
+  <image source="portrait4.jpg" width="55%"> 
+    <shortdescription>photo of student work
+  </shortdescription>
+</image>
+</figure>
+
+<figure xml:id="figportrait5">
+  <caption></caption>
+  <image source="portrait5.jpg" width="55%"> 
+    <shortdescription>photo of student work
+  </shortdescription>
+  </image>
+</figure>
+
+<figure xml:id="figportrait6">
+  <caption></caption>
+  <image source="portrait6.jpg" width="55%"> 
+    <shortdescription>photo of student work
+  </shortdescription>
+  </image>
+</figure>
+
+<figure xml:id="figportrait7">
+  <caption></caption>
+  <image source="portrait7.jpg" width="55%"> 
+    <shortdescription>photo of student work
+  </shortdescription>
+  </image>
+</figure>
+
+<blockquote> 
+        <p>You have a limited timeframe to develop three self portraits in three drawing styles- grid drawing, blind contour drawing, and drawing from life. Then, you will choose one style to develop into an acrylic painting. You must explain, through written critique, what the style, color, and composition convey to the viewer about you.</p></blockquote>
+        <p>Competencies:</p>
+         <p>Written Communication</p>
+         <p>Critical Thinking</p>
+        <p>Self Development- pursuing and applying feedback, multi-tasking in a fast-paced environment, maintaining a successful personal brand while providing critical feedback</p>
+        <p>Professionalism - being present and prepared, prioritizing and completing tasks to accomplish goals.</p> 
+</worksheet>
