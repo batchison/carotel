@@ -235,121 +235,13 @@ var ptx_lunr_docs = [
   "body": " Professional Writing: The White Space   This is a sample assignment for students enrolled in a professional writing course.    Introduction  In a conventional resume, you present a narrative of your professional self. In your “White Space” project—a kind of “creative resume”—you can present a more expressive, imaginative version of your story.    Instructions  Taking a cue from Jenn DeLeon's essay \"The White Space\" , consider what's in your \"white space.\" What parts of your life aren't easily articulated in a resume, yet are essential to who you are today, and where you hope to be in the future?  You’ll create a short video in which you share (some aspect of) your professional self, creatively narrating a story about yourself—your key attributes, knowledge, attitudes, behaviors, interests, relationships, and\/or defining moments—that relates somehow to your professional goals. From your presentation, we should be able to get a sense of why you’re passionate about your field, how you became interested in a particular kind of work, and\/or what motivates you to pursue your dream. Although no one might see this “behind the scenes” text in your actual job search, it can help you think about what matters to you, and what has contributed to your professional development.  The specific form and content of the presentation is up to you. Your “White Space” project should relate in some way to your other employment materials and to your career goals.    Assignment Submission  You may use VoiceThread directly for video, or any platform you're comfortable with for recording additional media, such as ScreenPal , Zoom, PowerPoint (saved as an .mp4), or something else where you can then upload the file. If you're not comfortable appearing on video, you don't have to, but there must be both a visual component and your narration . Videos should be approximately 4–5 minutes long; videos shorter than 3.5 minutes won't receive full credit.    Examples from Past Student Work  Below is a list of what some students have done with this assignment in the past. You may decide to do something similar or something entirely different.    Share a story about a meaningful experience (e.g., getting fired from a restaurant on your first day; moving to the US and having to learn English as a child); a person\/people who has\/have influenced your career path (e.g., the story of four different people you’ve helped through your job at the library); or where you see yourself in 10 or 20 years (e.g., up-and-coming editor at a publishing house, with a corgi).  Create a visual collage that illustrates some aspect of college life (e.g., your job as an RA), your hobbies (e.g., your fashion inspirations), or your travels (e.g., study abroad in Ireland), and talk us through it.  Compose a poem or song (e.g., about your pay-the-bills job vs. your dream job; about realizing what really matters in life) and perform it, and provide some context.  Give us a tour of places that are central to your identity (e.g., specific places on campus, in your neighborhood, etc.), and tell us about your process.  Share a presentation about a meaningful experience (e.g., an internship teaching middle schoolers about nutrition; your job at an assisted living facility), expanding on each slide to give us a full picture.      Responding to Others  After the presentation due date, watch your classmates' videos. Respond to at least 2 of them with a brief question or comment. At least one of your responses should be to someone whose thread doesn't have any replies (if this exists when you respond). Although it's not required, it's a good idea to check back and see the responses you've gotten to your own presentation!    Due Dates  Presentation posts—due by 11:59 p.m. on Wednesday, 10\/15  Responses to classmates’ videos—due by 11:59 p.m. on Sunday, 10\/19 .    Grading  This assignment is worth a total of 6 points: presentations are worth 5 points; responses are worth 1 point.    NACE Competencies  The National Association of Colleges and Employers (NACE) defines eight competencies that help you develop career readiness and prepare you for success in the workplace and lifelong career management. In this assignment, you’ll focus on three:    Career & Self-Development : Show an awareness of own strengths and areas for development; identify areas for continual growth while pursuing and applying feedback; develop plans and goals for one’s future career.  Communication : Communicate in a clear and organized manner so that others can effectively understand.  Technology : Identify appropriate technology for completing specific tasks; quickly adapt to new or unfamiliar technologies.      This assignment was created by Colleen Coyne for the CA-ROTEL PreTeXt Working Group at Framingham State University. It is licensed under a BY-NC-SA Creative Commons license.    CC BY-NC-SA     "
 },
 {
-  "id": "sec-sample-exam",
-  "level": "1",
-  "url": "sec-sample-exam.html",
-  "type": "Section",
-  "number": "",
-  "title": "Introduction to Functions: Practice Exam",
-  "body": " Introduction to Functions: Practice Exam   This is a sample assessment for an introduction to functions course.      Create a table with at least two points and graph the following function. Then state the domain , range , and the equation of the horizontal asymptote .   NOTE: You MUST make your graph on a separate paper.    Create a table with at least two points and graph the following function. Then state the domain , range , and the equation of the vertical asymptote .   NOTE: You MUST make your graph on a separate paper.    Create a table with at least two points and graph the following function. Then state the domain , range , and the equation of the vertical asymptote .   NOTE: You MUST make your graph on a separate paper.    Rewrite each expression using exponential form.            Evaluate without a calculator:            Simplify using the properties of exponents .                     Rewrite each equation using the other form.                  Evaluate each logarithm.                     Solve each exponential equation.            Solve each logarithmic equation.            Solve each logarithmic equation after using log properties to write as a single logarithm.              NACE Competencies  This assignment fulfills NACE competencies 2, 3, and 6 (for more information on NACE competencies, please see the document titled 'NACE Competencies').    This assignment was created by Mark Morabito for the CA-ROTEL PreTeXt Working Group at Framingham State University. It is licensed under a BY-NC-SA Creative Commons license.    CC BY-NC-SA     "
-},
-{
-  "id": "sec-sample-exam-3-1",
-  "level": "2",
-  "url": "sec-sample-exam.html#sec-sample-exam-3-1",
-  "type": "Exercise",
-  "number": "1",
-  "title": "",
-  "body": " Create a table with at least two points and graph the following function. Then state the domain , range , and the equation of the horizontal asymptote .   NOTE: You MUST make your graph on a separate paper.  "
-},
-{
-  "id": "sec-sample-exam-3-2",
-  "level": "2",
-  "url": "sec-sample-exam.html#sec-sample-exam-3-2",
-  "type": "Exercise",
-  "number": "2",
-  "title": "",
-  "body": " Create a table with at least two points and graph the following function. Then state the domain , range , and the equation of the vertical asymptote .   NOTE: You MUST make your graph on a separate paper.  "
-},
-{
-  "id": "sec-sample-exam-3-3",
-  "level": "2",
-  "url": "sec-sample-exam.html#sec-sample-exam-3-3",
-  "type": "Exercise",
-  "number": "3",
-  "title": "",
-  "body": " Create a table with at least two points and graph the following function. Then state the domain , range , and the equation of the vertical asymptote .   NOTE: You MUST make your graph on a separate paper.  "
-},
-{
-  "id": "sec-sample-exam-3-4",
-  "level": "2",
-  "url": "sec-sample-exam.html#sec-sample-exam-3-4",
-  "type": "Exercise",
-  "number": "4",
-  "title": "",
-  "body": " Rewrite each expression using exponential form.          "
-},
-{
-  "id": "sec-sample-exam-3-5",
-  "level": "2",
-  "url": "sec-sample-exam.html#sec-sample-exam-3-5",
-  "type": "Exercise",
-  "number": "5",
-  "title": "",
-  "body": " Evaluate without a calculator:          "
-},
-{
-  "id": "sec-sample-exam-3-6",
-  "level": "2",
-  "url": "sec-sample-exam.html#sec-sample-exam-3-6",
-  "type": "Exercise",
-  "number": "6",
-  "title": "",
-  "body": " Simplify using the properties of exponents .                   "
-},
-{
-  "id": "sec-sample-exam-3-7",
-  "level": "2",
-  "url": "sec-sample-exam.html#sec-sample-exam-3-7",
-  "type": "Exercise",
-  "number": "7",
-  "title": "",
-  "body": " Rewrite each equation using the other form.                "
-},
-{
-  "id": "sec-sample-exam-3-8",
-  "level": "2",
-  "url": "sec-sample-exam.html#sec-sample-exam-3-8",
-  "type": "Exercise",
-  "number": "8",
-  "title": "",
-  "body": " Evaluate each logarithm.                   "
-},
-{
-  "id": "sec-sample-exam-3-9",
-  "level": "2",
-  "url": "sec-sample-exam.html#sec-sample-exam-3-9",
-  "type": "Exercise",
-  "number": "9",
-  "title": "",
-  "body": " Solve each exponential equation.          "
-},
-{
-  "id": "sec-sample-exam-3-10",
-  "level": "2",
-  "url": "sec-sample-exam.html#sec-sample-exam-3-10",
-  "type": "Exercise",
-  "number": "10",
-  "title": "",
-  "body": " Solve each logarithmic equation.          "
-},
-{
-  "id": "sec-sample-exam-3-11",
-  "level": "2",
-  "url": "sec-sample-exam.html#sec-sample-exam-3-11",
-  "type": "Exercise",
-  "number": "11",
-  "title": "",
-  "body": " Solve each logarithmic equation after using log properties to write as a single logarithm.          "
-},
-{
   "id": "sec-recorded-role-play",
   "level": "1",
   "url": "sec-recorded-role-play.html",
   "type": "Section",
   "number": "",
   "title": "Mental Health Counseling Practicum: Recorded Role Play",
-  "body": " Mental Health Counseling Practicum: Recorded Role Play  Client Introductions and Consent   This assignment is designed to simulate the initial phase of a counseling session, focusing on client introductions and obtaining informed consent. Follow these instructions to successfully complete the role play.    NACE Career Readiness Competencies  This assignment supports development of the following NACE competencies:     Communication : Students will clearly and professionally introduce themselves, explain the counseling process, and discuss informed consent and confidentiality with a mock client.    Professionalism : Students will demonstrate professional demeanor, ethical awareness, preparedness, and appropriate conduct in a simulated counseling interaction.    Critical Thinking : Students will organize and deliver counseling information in a developmentally and contextually appropriate way while responding to client questions and concerns.       Assignment Learning Objective  To demonstrate professional and effective communication in an initial counseling interaction by establishing rapport, explaining the counseling process, discussing informed consent and confidentiality, and responding appropriately to mock client questions within a 10–15-minute time frame.    Preparation  Understand the Assignment: The role play involves introducing yourself to a mock client and discussing informed consent. You will be reviewed on professionalism, clarity, and adherence to assignment.  Prepare a Script: Draft an outline or script for your introduction, including:  Your name and role as the counselor.  A brief description of the counseling process and why you're having the session today.  Explanation of confidentiality and its limitations (e.g., harm to self\/others, court orders).  Invitation for the client to ask questions or voice concerns.    Find a Partner: Arrange for a peer, family member, or friend to act as your mock client. Share basic background information about the “client” (e.g., name, reason for seeking counseling) to provide context for the role play.    Recording the Role Play  Set Up Your Recording Environment:  Choose a quiet, distraction-free location with good lighting and audio quality.  Ensure the camera captures you from the waist up, maintaining a professional appearance.    Conduct the Role Play:  Start the recording by introducing the purpose of the session (e.g., “This is a demonstration of a 5-minute client introduction and informed consent discussion.”).  Follow your script while remaining natural and conversational.    Ensure the session includes:  Warm and professional greeting.  Explanation of your role as a counselor.  Clear description of informed consent and confidentiality.  Opportunity for the mock client to ask questions or confirm understanding.    Wrap Up:  Thank the mock client and provide a brief summary of what happens next (e.g., scheduling the next session, goals for future sessions).  Conclude the session and stop the recording.      Submission and Review  Submit your role play as instructed. Be prepared to discuss your approach and receive feedback during the seminar session.    Evaluation Criteria  Your role play will be evaluated based on the following criteria:  Professionalism: Demonstrating a respectful and empathetic demeanor, preparedness, appropriate attire, and a clear introduction.  Accuracy and Completeness: Providing a thorough explanation of the counseling process, informed consent, and confidentiality, including limitations.  Clarity and Communication: Effectively communicating the counseling process, informed consent, and confidentiality in a way that is understandable to the client.  Critical Thinking and Engagement: Encouraging client participation by inviting questions and responding appropriately.  Adherence to Time Frame: Keeping the role play within the 10 to 15 minute limit while covering all required components.      This assignment was created by Jodie Nierintz for the CA-ROTEL PreTeXt Working Group at Framingham State University. It is licensed under a BY-NC-SA Creative Commons license.   CC BY-NC-SA    "
+  "body": " Mental Health Counseling Practicum: Recorded Role Play    This assignment is designed to simulate the initial phase of a counseling session, focusing on client introductions and obtaining informed consent. Follow these instructions to successfully complete the role play.    NACE Career Readiness Competencies  This assignment supports development of the following NACE competencies:     Communication : Students will clearly and professionally introduce themselves, explain the counseling process, and discuss informed consent and confidentiality with a mock client.    Professionalism : Students will demonstrate professional demeanor, ethical awareness, preparedness, and appropriate conduct in a simulated counseling interaction.    Critical Thinking : Students will organize and deliver counseling information in a developmentally and contextually appropriate way while responding to client questions and concerns.       Assignment Learning Objective  To demonstrate professional and effective communication in an initial counseling interaction by establishing rapport, explaining the counseling process, discussing informed consent and confidentiality, and responding appropriately to mock client questions within a 10–15-minute time frame.    Preparation  Understand the Assignment: The role play involves introducing yourself to a mock client and discussing informed consent. You will be reviewed on professionalism, clarity, and adherence to assignment.  Prepare a Script: Draft an outline or script for your introduction, including:  Your name and role as the counselor.  A brief description of the counseling process and why you're having the session today.  Explanation of confidentiality and its limitations (e.g., harm to self\/others, court orders).  Invitation for the client to ask questions or voice concerns.    Find a Partner: Arrange for a peer, family member, or friend to act as your mock client. Share basic background information about the “client” (e.g., name, reason for seeking counseling) to provide context for the role play.    Recording the Role Play  Set Up Your Recording Environment:  Choose a quiet, distraction-free location with good lighting and audio quality.  Ensure the camera captures you from the waist up, maintaining a professional appearance.    Conduct the Role Play:  Start the recording by introducing the purpose of the session (e.g., “This is a demonstration of a 5-minute client introduction and informed consent discussion.”).  Follow your script while remaining natural and conversational.    Ensure the session includes:  Warm and professional greeting.  Explanation of your role as a counselor.  Clear description of informed consent and confidentiality.  Opportunity for the mock client to ask questions or confirm understanding.    Wrap Up:  Thank the mock client and provide a brief summary of what happens next (e.g., scheduling the next session, goals for future sessions).  Conclude the session and stop the recording.      Submission and Review  Submit your role play as instructed. Be prepared to discuss your approach and receive feedback during the seminar session.    Evaluation Criteria  Your role play will be evaluated based on the following criteria:  Professionalism: Demonstrating a respectful and empathetic demeanor, preparedness, appropriate attire, and a clear introduction.  Accuracy and Completeness: Providing a thorough explanation of the counseling process, informed consent, and confidentiality, including limitations.  Clarity and Communication: Effectively communicating the counseling process, informed consent, and confidentiality in a way that is understandable to the client.  Critical Thinking and Engagement: Encouraging client participation by inviting questions and responding appropriately.  Adherence to Time Frame: Keeping the role play within the 10 to 15 minute limit while covering all required components.      This assignment was created by Jodie Nierintz for the CA-ROTEL PreTeXt Working Group at Framingham State University. It is licensed under a BY-NC-SA Creative Commons license.   CC BY-NC-SA    "
 },
 {
   "id": "intro-to-functions",
@@ -359,6 +251,114 @@ var ptx_lunr_docs = [
   "number": "",
   "title": "Introduction to Functions: Quiz",
   "body": " Introduction to Functions: Quiz   This is a sample assessment for an introduction to functions course.    Problem 1  Convert the following quadratic function to vertex form ( ). State the vertex. Further, state the domain and range.     Problem 2  Solve the following system of equations.     Problem 3  For each table below, determine whether the data represent a linear function. If it is linear, write a linear function for the data in the table.          0  2    1  5    2  8    3  11             0  4    2  10    5  19    9  31            0  1    1  4    2  9    3  16            -2  -8    -1  -2    0  4    1  11            -3  12    -1  6    1  0    3  -6         Problem 4  Sketch a graph of the following piecewise function.     Problem 5  Write a formula for the quadratic function pictured below.   A parabola.   A downward-opening parabola.      NACE Competencies  The National Association of Colleges and Employers have identified eight core competencies that help individuals to develop career readiness. This assignment will give students an opportunity to focus on three of these competencies in particular.     Career and Self-Development : Proactively develop oneself and one’s career through continual personal and professional learning, awareness of one’s strengths and weaknesses, navigation of career opportunities, and networking to build relationships within and without one’s organization.  Students will become aware of their own strengths and areas for continued growth.    Communication : Clearly and effectively exchange information, ideas, facts, and perspectives with persons inside and outside of an organization.  Students are communicing difficult topics using terminology and notation from the field.    Critical Thinking : Identify and respond to needs based upon an understanding of situational context and logical analysis of relevant information.  Can't do mathematics without it!       This assignment was created by Christopher Staniszewski for the CA-ROTEL PreTeXt Working Group at Framingham State University. It is licensed under a BY-NC-SA Creative Commons license.    CC BY-NC-SA     "
+},
+{
+  "id": "sec-sample-exam",
+  "level": "1",
+  "url": "sec-sample-exam.html",
+  "type": "Section",
+  "number": "",
+  "title": "Introduction to Functions: Exam",
+  "body": " Introduction to Functions: Exam   This is a sample assessment for an introduction to functions course.     Practice Exam - Exponentials and Logarithms   Create a table with at least two points and graph the following function. Then state the domain , range , and the equation of the horizontal asymptote .   NOTE: You MUST make your graph on a separate paper.    Create a table with at least two points and graph the following function. Then state the domain , range , and the equation of the vertical asymptote .   NOTE: You MUST make your graph on a separate paper.    Create a table with at least two points and graph the following function. Then state the domain , range , and the equation of the vertical asymptote .   NOTE: You MUST make your graph on a separate paper.    Rewrite each expression using exponential form.        Evaluate without a calculator:        Simplify using the properties of exponents .           Rewrite each equation using the other form.          Evaluate each logarithm.           Solve each exponential equation.        Solve each logarithmic equation.        Solve each logarithmic equation after using log properties to write as a single logarithm.         NACE Competencies  This assignment fulfills NACE competencies 2, 3, and 6 (for more information on NACE competencies, please see the document titled 'NACE Competencies').    This assignment was created by Mark Morabito for the CA-ROTEL PreTeXt Working Group at Framingham State University. It is licensed under a BY-NC-SA Creative Commons license.    CC BY-NC-SA     "
+},
+{
+  "id": "ws-morabito-2",
+  "level": "2",
+  "url": "sec-sample-exam.html#ws-morabito-2",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": " Create a table with at least two points and graph the following function. Then state the domain , range , and the equation of the horizontal asymptote .   NOTE: You MUST make your graph on a separate paper.  "
+},
+{
+  "id": "ws-morabito-3",
+  "level": "2",
+  "url": "sec-sample-exam.html#ws-morabito-3",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": " Create a table with at least two points and graph the following function. Then state the domain , range , and the equation of the vertical asymptote .   NOTE: You MUST make your graph on a separate paper.  "
+},
+{
+  "id": "ws-morabito-4",
+  "level": "2",
+  "url": "sec-sample-exam.html#ws-morabito-4",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": " Create a table with at least two points and graph the following function. Then state the domain , range , and the equation of the vertical asymptote .   NOTE: You MUST make your graph on a separate paper.  "
+},
+{
+  "id": "ws-morabito-5",
+  "level": "2",
+  "url": "sec-sample-exam.html#ws-morabito-5",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": " Rewrite each expression using exponential form.      "
+},
+{
+  "id": "ws-morabito-6",
+  "level": "2",
+  "url": "sec-sample-exam.html#ws-morabito-6",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "",
+  "body": " Evaluate without a calculator:      "
+},
+{
+  "id": "ws-morabito-7",
+  "level": "2",
+  "url": "sec-sample-exam.html#ws-morabito-7",
+  "type": "Worksheet Exercise",
+  "number": "6",
+  "title": "",
+  "body": " Simplify using the properties of exponents .         "
+},
+{
+  "id": "ws-morabito-8",
+  "level": "2",
+  "url": "sec-sample-exam.html#ws-morabito-8",
+  "type": "Worksheet Exercise",
+  "number": "7",
+  "title": "",
+  "body": " Rewrite each equation using the other form.        "
+},
+{
+  "id": "ws-morabito-9",
+  "level": "2",
+  "url": "sec-sample-exam.html#ws-morabito-9",
+  "type": "Worksheet Exercise",
+  "number": "8",
+  "title": "",
+  "body": " Evaluate each logarithm.         "
+},
+{
+  "id": "ws-morabito-10",
+  "level": "2",
+  "url": "sec-sample-exam.html#ws-morabito-10",
+  "type": "Worksheet Exercise",
+  "number": "9",
+  "title": "",
+  "body": " Solve each exponential equation.      "
+},
+{
+  "id": "ws-morabito-11",
+  "level": "2",
+  "url": "sec-sample-exam.html#ws-morabito-11",
+  "type": "Worksheet Exercise",
+  "number": "10",
+  "title": "",
+  "body": " Solve each logarithmic equation.      "
+},
+{
+  "id": "ws-morabito-12",
+  "level": "2",
+  "url": "sec-sample-exam.html#ws-morabito-12",
+  "type": "Worksheet Exercise",
+  "number": "11",
+  "title": "",
+  "body": " Solve each logarithmic equation after using log properties to write as a single logarithm.      "
 },
 {
   "id": "statistical-thinking-activity",
