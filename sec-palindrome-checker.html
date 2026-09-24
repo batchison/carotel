@@ -14,7 +14,7 @@
 <!--******************************************-->
 <head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Introduction to Functions: Exam</title>
+<title>Data Structures: Palindrome Checker</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
@@ -121,7 +121,7 @@ eBookConfig.enable_chatcodes =  false;
 <legend>Assistive technologies</legend>
 <label for="ptx-readability-accessible-permalinks"><input type="checkbox" id="ptx-readability-accessible-permalinks"><span>🔗</span><span>Expose permalinks</span></label>
 </fieldset>
-<div class="ptx-readability-options-group"><button type="button" class="ptx-readability-reset-button button" id="ptx-readability-reset-button"><span class="icon material-symbols-outlined" aria-hidden="true">&#xf053;</span><span class="name">Reset All</span></button></div></dialog></span><span class="treebuttons"><a class="previous-button button" href="intro-to-functions.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="pretext-working-group.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="statistical-thinking-activity.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+<div class="ptx-readability-options-group"><button type="button" class="ptx-readability-reset-button button" id="ptx-readability-reset-button"><span class="icon material-symbols-outlined" aria-hidden="true">&#xf053;</span><span class="name">Reset All</span></button></div></dialog></span><span class="treebuttons"><a class="previous-button button" href="sec-white-space-presentation.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="pretext-working-group.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="sec-project-sound-collage.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
 </div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N}
 \newcommand{\Z}{\mathbb Z}
 \newcommand{\Q}{\mathbb Q}
@@ -218,9 +218,9 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-white-space-presentation.html#sec-4-sub-7" class="internal"><span class="title">NACE Competencies</span></a></div></li>
 </ul>
 </li>
-<li class="toc-item toc-section">
+<li class="toc-item toc-section contains-active">
 <div class="toc-title-box"><a href="sec-palindrome-checker.html" class="internal"><span class="title">Data Structures: Palindrome Checker</span></a></div>
-<ul id="ptx-toc-group-sec-palindrome-checker" class="structural toc-item-list">
+<ul class="structural toc-item-list active" id="ptx-toc-group-sec-palindrome-checker">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-palindrome-checker.html#sec-gao-introduction" class="internal"><span class="title">Assignment: Palindrome Checker Using Stacks and Queues</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-palindrome-checker.html#sec-gao-objective" class="internal"><span class="title">Objective:</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-palindrome-checker.html#sec-gao-theory" class="internal"><span class="title">Theory:</span></a></div></li>
@@ -263,9 +263,9 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="intro-to-functions.html#subsec-staniszewski-nace-competencies" class="internal"><span class="title">NACE Competencies</span></a></div></li>
 </ul>
 </li>
-<li class="toc-item toc-section contains-active">
+<li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-sample-exam.html" class="internal"><span class="title">Introduction to Functions: Exam</span></a></div>
-<ul class="structural toc-item-list active" id="ptx-toc-group-sec-sample-exam">
+<ul id="ptx-toc-group-sec-sample-exam" class="structural toc-item-list">
 <li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-sample-exam.html#ws-morabito" class="internal"><span class="title">Practice Exam - Exponentials and Logarithms</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-sample-exam.html#sec-morabito-nace" class="internal"><span class="title">NACE Competencies</span></a></div></li>
 </ul>
@@ -298,324 +298,128 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 </ul></nav></div>
 <main class="ptx-main"><div id="ptx-content" class="ptx-content">
-<div class="print-preview-header">
-<h2 class="print-preview">Print preview</h2>
-<div class="print-controls">
-<div class="print-controls-toggles">
-<form class="papersize-select" id="papersize-select">
-<span class="name">Paper size</span><label><input type="radio" name="papersize" value="a4">A4
-        </label><label><input type="radio" name="papersize" value="letter">Letter
-        </label>
-</form>
-<details class="print-options"><summary>Additional printing options</summary><div class="header-footer-options">
-<div class="header-option">
-<span class="title">Print headers</span><label>First page<input type="checkbox" id="print-first-page-header-checkbox" checked></label><label>Running<input type="checkbox" id="print-running-header-checkbox" checked></label>
-</div>
-<div class="footer-option">
-<span class="title">Print footers</span><label>First page<input type="checkbox" id="print-first-page-footer-checkbox" checked></label><label>Running<input type="checkbox" id="print-running-footer-checkbox" checked></label>
-</div>
-</div>
-<div class="highlight-workspace-option">
-<label for="highlight-workspace-checkbox">Highlight workspace</label><input type="checkbox" id="highlight-workspace-checkbox">
-</div></details>
-</div>
-<button class="print-button" title="Print" onClick="window.print()"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span><span class="name">Print</span></button>
-</div>
-</div>
-<section class="section" id="sec-sample-exam">
+<section class="section" id="sec-palindrome-checker">
 <h1 class="heading hide-type">
-<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Introduction to Functions: Exam</span>
+<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Data Structures: Palindrome Checker</span>
 </h1>
-<section class="introduction" id="sec-sample-exam-2">
-<div class="para" id="sec-sample-exam-2-1">This is a sample assessment for an introduction to functions course.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-sample-exam-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<section class="introduction" id="sec-palindrome-checker-2">
+<div class="para" id="sec-palindrome-checker-2-1">This is a sample assignment for students enrolled in a data structures course.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-palindrome-checker-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div></section>
-<section class="worksheet" id="ws-morabito" data-margins="0.75in 0.75in 0.75in 0.75in">
+<section class="subsection" id="sec-gao-introduction">
 <h2 class="heading hide-type">
-<span class="type">Worksheet</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Practice Exam - Exponentials and Logarithms</span><div class="print-links"><a href="?printpreview=ws-morabito" class="print-link" title="Print preview"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span></a></div>
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Assignment: Palindrome Checker Using Stacks and Queues</span>
 </h2>
-<article class="exercise exercise-like" id="ws-morabito-2"><h3 class="heading"><span class="codenumber">1<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3>
-<div class="para logical" id="ws-morabito-2-1">
-<div class="para">Create a table with at least two points and graph the following function. Then state the <em class="emphasis">domain</em>, <em class="emphasis">range</em>, and the equation of the <em class="emphasis">horizontal asymptote</em>.</div>
-<div class="displaymath process-math" id="ws-morabito-2-1-4">
-\begin{equation*}
-f(x) = 2^{x-1} + 3
-\end{equation*}
+<div class="para" id="sec-gao-introduction-2">This assignment is worth 50 points.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-gao-introduction-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws-morabito-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="para" id="ws-morabito-2-2">NOTE: You MUST make your graph on a separate paper.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws-morabito-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" aria-hidden="true" data-description="Worksheet Exercise 1"><a tabindex="-1" href="#ws-morabito-2" title="Copy heading and permalink for Worksheet Exercise 1" aria-label="Copy heading and permalink for Worksheet Exercise 1">🔗</a></div>
-</article>
-<article class="exercise exercise-like" id="ws-morabito-3"><h3 class="heading"><span class="codenumber">2<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3>
-<div class="para logical" id="ws-morabito-3-1">
-<div class="para">Create a table with at least two points and graph the following function. Then state the <em class="emphasis">domain</em>, <em class="emphasis">range</em>, and the equation of the <em class="emphasis">vertical asymptote</em>.</div>
-<div class="displaymath process-math" id="ws-morabito-3-1-4">
-\begin{equation*}
-g(x) = \log_2(x)
-\end{equation*}
-</div>
-<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws-morabito-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="para" id="ws-morabito-3-2">NOTE: You MUST make your graph on a separate paper.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws-morabito-3-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" aria-hidden="true" data-description="Worksheet Exercise 2"><a tabindex="-1" href="#ws-morabito-3" title="Copy heading and permalink for Worksheet Exercise 2" aria-label="Copy heading and permalink for Worksheet Exercise 2">🔗</a></div>
-</article>
-<article class="exercise exercise-like" id="ws-morabito-4"><h3 class="heading"><span class="codenumber">3<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3>
-<div class="para logical" id="ws-morabito-4-1">
-<div class="para">Create a table with at least two points and graph the following function. Then state the <em class="emphasis">domain</em>, <em class="emphasis">range</em>, and the equation of the <em class="emphasis">vertical asymptote</em>.</div>
-<div class="displaymath process-math" id="ws-morabito-4-1-4">
-\begin{equation*}
-h(x) = \log_3(x-4) + 2
-\end{equation*}
-</div>
-<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws-morabito-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="para" id="ws-morabito-4-2">NOTE: You MUST make your graph on a separate paper.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws-morabito-4-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" aria-hidden="true" data-description="Worksheet Exercise 3"><a tabindex="-1" href="#ws-morabito-4" title="Copy heading and permalink for Worksheet Exercise 3" aria-label="Copy heading and permalink for Worksheet Exercise 3">🔗</a></div>
-</article>
-<article class="exercise exercise-like" id="ws-morabito-5"><h3 class="heading"><span class="codenumber">4<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3>
-<div class="para" id="ws-morabito-5-1">Rewrite each expression using exponential form.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws-morabito-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="para logical" id="ws-morabito-5-2">
-<ol class="lower-alpha" style="list-style: ptx-marker-0;" id="ws-morabito-5-2-1">
-<li id="ws-morabito-5-2-1-1">
-<div class="para" id="ws-morabito-5-2-1-1-1">
-<span class="process-math">\(\displaystyle \log_2 16 = x\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws-morabito-5-2-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" aria-hidden="true" data-description="Item 4.a"><a tabindex="-1" href="#ws-morabito-5-2-1-1" title="Copy heading and permalink for Item 4.a" aria-label="Copy heading and permalink for Item 4.a">🔗</a></div>
-</li>
-<li id="ws-morabito-5-2-1-2">
-<div class="para" id="ws-morabito-5-2-1-2-1">
-<span class="process-math">\(\displaystyle \log_5\left(\frac{1}{125}\right) = x\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws-morabito-5-2-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" aria-hidden="true" data-description="Item 4.b"><a tabindex="-1" href="#ws-morabito-5-2-1-2" title="Copy heading and permalink for Item 4.b" aria-label="Copy heading and permalink for Item 4.b">🔗</a></div>
-</li>
-</ol>
-<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws-morabito-5-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" aria-hidden="true" data-description="Worksheet Exercise 4"><a tabindex="-1" href="#ws-morabito-5" title="Copy heading and permalink for Worksheet Exercise 4" aria-label="Copy heading and permalink for Worksheet Exercise 4">🔗</a></div>
-</article>
-<article class="exercise exercise-like" id="ws-morabito-6"><h3 class="heading"><span class="codenumber">5<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3>
-<div class="para" id="ws-morabito-6-1">Evaluate without a calculator:<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws-morabito-6-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="para logical" id="ws-morabito-6-2">
-<ol class="lower-alpha" style="list-style: ptx-marker-0;" id="ws-morabito-6-2-1">
-<li id="ws-morabito-6-2-1-1">
-<div class="para" id="ws-morabito-6-2-1-1-1">
-<span class="process-math">\(\displaystyle \log_4 64\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws-morabito-6-2-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" aria-hidden="true" data-description="Item 5.a"><a tabindex="-1" href="#ws-morabito-6-2-1-1" title="Copy heading and permalink for Item 5.a" aria-label="Copy heading and permalink for Item 5.a">🔗</a></div>
-</li>
-<li id="ws-morabito-6-2-1-2">
-<div class="para" id="ws-morabito-6-2-1-2-1">
-<span class="process-math">\(\displaystyle \log_{10} 0.01\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws-morabito-6-2-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" aria-hidden="true" data-description="Item 5.b"><a tabindex="-1" href="#ws-morabito-6-2-1-2" title="Copy heading and permalink for Item 5.b" aria-label="Copy heading and permalink for Item 5.b">🔗</a></div>
-</li>
-</ol>
-<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws-morabito-6-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" aria-hidden="true" data-description="Worksheet Exercise 5"><a tabindex="-1" href="#ws-morabito-6" title="Copy heading and permalink for Worksheet Exercise 5" aria-label="Copy heading and permalink for Worksheet Exercise 5">🔗</a></div>
-</article>
-<article class="exercise exercise-like" id="ws-morabito-7"><h3 class="heading"><span class="codenumber">6<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3>
-<div class="para" id="ws-morabito-7-1">Simplify using the <em class="emphasis">properties of exponents</em>.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws-morabito-7-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="para logical" id="ws-morabito-7-2">
-<ol class="lower-alpha" style="list-style: ptx-marker-0;" id="ws-morabito-7-2-1">
-<li id="ws-morabito-7-2-1-1">
-<div class="para" id="ws-morabito-7-2-1-1-1">
-<span class="process-math">\(\displaystyle x^3 \cdot x^5\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws-morabito-7-2-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" aria-hidden="true" data-description="Item 6.a"><a tabindex="-1" href="#ws-morabito-7-2-1-1" title="Copy heading and permalink for Item 6.a" aria-label="Copy heading and permalink for Item 6.a">🔗</a></div>
-</li>
-<li id="ws-morabito-7-2-1-2">
-<div class="para" id="ws-morabito-7-2-1-2-1">
-<span class="process-math">\(\displaystyle \frac{a^9}{a^4}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws-morabito-7-2-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" aria-hidden="true" data-description="Item 6.b"><a tabindex="-1" href="#ws-morabito-7-2-1-2" title="Copy heading and permalink for Item 6.b" aria-label="Copy heading and permalink for Item 6.b">🔗</a></div>
-</li>
-<li id="ws-morabito-7-2-1-3">
-<div class="para" id="ws-morabito-7-2-1-3-1">
-<span class="process-math">\(\displaystyle (2x^3)^4\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws-morabito-7-2-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" aria-hidden="true" data-description="Item 6.c"><a tabindex="-1" href="#ws-morabito-7-2-1-3" title="Copy heading and permalink for Item 6.c" aria-label="Copy heading and permalink for Item 6.c">🔗</a></div>
-</li>
-<li id="ws-morabito-7-2-1-4">
-<div class="para" id="ws-morabito-7-2-1-4-1">
-<span class="process-math">\(\displaystyle (x^2y^3)^2\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws-morabito-7-2-1-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" aria-hidden="true" data-description="Item 6.d"><a tabindex="-1" href="#ws-morabito-7-2-1-4" title="Copy heading and permalink for Item 6.d" aria-label="Copy heading and permalink for Item 6.d">🔗</a></div>
-</li>
-<li id="ws-morabito-7-2-1-5">
-<div class="para" id="ws-morabito-7-2-1-5-1">
-<span class="process-math">\(\displaystyle \frac{5^6}{5^{-2}}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws-morabito-7-2-1-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" aria-hidden="true" data-description="Item 6.e"><a tabindex="-1" href="#ws-morabito-7-2-1-5" title="Copy heading and permalink for Item 6.e" aria-label="Copy heading and permalink for Item 6.e">🔗</a></div>
-</li>
-</ol>
-<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws-morabito-7-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" aria-hidden="true" data-description="Worksheet Exercise 6"><a tabindex="-1" href="#ws-morabito-7" title="Copy heading and permalink for Worksheet Exercise 6" aria-label="Copy heading and permalink for Worksheet Exercise 6">🔗</a></div>
-</article>
-<article class="exercise exercise-like" id="ws-morabito-8"><h3 class="heading"><span class="codenumber">7<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3>
-<div class="para" id="ws-morabito-8-1">Rewrite each equation using the other form.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws-morabito-8-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="para logical" id="ws-morabito-8-2">
-<ol class="lower-alpha" style="list-style: ptx-marker-0;" id="ws-morabito-8-2-1">
-<li id="ws-morabito-8-2-1-1">
-<div class="para" id="ws-morabito-8-2-1-1-1">
-<span class="process-math">\(\displaystyle 3^4 = 81\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws-morabito-8-2-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" aria-hidden="true" data-description="Item 7.a"><a tabindex="-1" href="#ws-morabito-8-2-1-1" title="Copy heading and permalink for Item 7.a" aria-label="Copy heading and permalink for Item 7.a">🔗</a></div>
-</li>
-<li id="ws-morabito-8-2-1-2">
-<div class="para" id="ws-morabito-8-2-1-2-1">
-<span class="process-math">\(\displaystyle \log_2 16 = 4\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws-morabito-8-2-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" aria-hidden="true" data-description="Item 7.b"><a tabindex="-1" href="#ws-morabito-8-2-1-2" title="Copy heading and permalink for Item 7.b" aria-label="Copy heading and permalink for Item 7.b">🔗</a></div>
-</li>
-<li id="ws-morabito-8-2-1-3">
-<div class="para" id="ws-morabito-8-2-1-3-1">
-<span class="process-math">\(\displaystyle \log_5 125 = 3\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws-morabito-8-2-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" aria-hidden="true" data-description="Item 7.c"><a tabindex="-1" href="#ws-morabito-8-2-1-3" title="Copy heading and permalink for Item 7.c" aria-label="Copy heading and permalink for Item 7.c">🔗</a></div>
-</li>
-<li id="ws-morabito-8-2-1-4">
-<div class="para" id="ws-morabito-8-2-1-4-1">
-<span class="process-math">\(\displaystyle 10^2 = 100\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws-morabito-8-2-1-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" aria-hidden="true" data-description="Item 7.d"><a tabindex="-1" href="#ws-morabito-8-2-1-4" title="Copy heading and permalink for Item 7.d" aria-label="Copy heading and permalink for Item 7.d">🔗</a></div>
-</li>
-</ol>
-<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws-morabito-8-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" aria-hidden="true" data-description="Worksheet Exercise 7"><a tabindex="-1" href="#ws-morabito-8" title="Copy heading and permalink for Worksheet Exercise 7" aria-label="Copy heading and permalink for Worksheet Exercise 7">🔗</a></div>
-</article>
-<article class="exercise exercise-like" id="ws-morabito-9"><h3 class="heading"><span class="codenumber">8<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3>
-<div class="para" id="ws-morabito-9-1">Evaluate each logarithm.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws-morabito-9-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="para logical" id="ws-morabito-9-2">
-<ol class="lower-alpha" style="list-style: ptx-marker-0;" id="ws-morabito-9-2-1">
-<li id="ws-morabito-9-2-1-1">
-<div class="para" id="ws-morabito-9-2-1-1-1">
-<span class="process-math">\(\displaystyle \log_{10} 1000\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws-morabito-9-2-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" aria-hidden="true" data-description="Item 8.a"><a tabindex="-1" href="#ws-morabito-9-2-1-1" title="Copy heading and permalink for Item 8.a" aria-label="Copy heading and permalink for Item 8.a">🔗</a></div>
-</li>
-<li id="ws-morabito-9-2-1-2">
-<div class="para" id="ws-morabito-9-2-1-2-1">
-<span class="process-math">\(\displaystyle \log_2 32\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws-morabito-9-2-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" aria-hidden="true" data-description="Item 8.b"><a tabindex="-1" href="#ws-morabito-9-2-1-2" title="Copy heading and permalink for Item 8.b" aria-label="Copy heading and permalink for Item 8.b">🔗</a></div>
-</li>
-<li id="ws-morabito-9-2-1-3">
-<div class="para" id="ws-morabito-9-2-1-3-1">
-<span class="process-math">\(\displaystyle \log_3 81\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws-morabito-9-2-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" aria-hidden="true" data-description="Item 8.c"><a tabindex="-1" href="#ws-morabito-9-2-1-3" title="Copy heading and permalink for Item 8.c" aria-label="Copy heading and permalink for Item 8.c">🔗</a></div>
-</li>
-<li id="ws-morabito-9-2-1-4">
-<div class="para" id="ws-morabito-9-2-1-4-1">
-<span class="process-math">\(\displaystyle \log_4 16\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws-morabito-9-2-1-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" aria-hidden="true" data-description="Item 8.d"><a tabindex="-1" href="#ws-morabito-9-2-1-4" title="Copy heading and permalink for Item 8.d" aria-label="Copy heading and permalink for Item 8.d">🔗</a></div>
-</li>
-<li id="ws-morabito-9-2-1-5">
-<div class="para" id="ws-morabito-9-2-1-5-1">
-<span class="process-math">\(\displaystyle \log_5\left(\frac{1}{25}\right)\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws-morabito-9-2-1-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" aria-hidden="true" data-description="Item 8.e"><a tabindex="-1" href="#ws-morabito-9-2-1-5" title="Copy heading and permalink for Item 8.e" aria-label="Copy heading and permalink for Item 8.e">🔗</a></div>
-</li>
-</ol>
-<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws-morabito-9-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" aria-hidden="true" data-description="Worksheet Exercise 8"><a tabindex="-1" href="#ws-morabito-9" title="Copy heading and permalink for Worksheet Exercise 8" aria-label="Copy heading and permalink for Worksheet Exercise 8">🔗</a></div>
-</article>
-<article class="exercise exercise-like" id="ws-morabito-10"><h3 class="heading"><span class="codenumber">9<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3>
-<div class="para" id="ws-morabito-10-1">Solve each exponential equation.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws-morabito-10-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="para logical" id="ws-morabito-10-2">
-<ol class="lower-alpha" style="list-style: ptx-marker-0;" id="ws-morabito-10-2-1">
-<li id="ws-morabito-10-2-1-1">
-<div class="para" id="ws-morabito-10-2-1-1-1">
-<span class="process-math">\(\displaystyle 2^x = 16\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws-morabito-10-2-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" aria-hidden="true" data-description="Item 9.a"><a tabindex="-1" href="#ws-morabito-10-2-1-1" title="Copy heading and permalink for Item 9.a" aria-label="Copy heading and permalink for Item 9.a">🔗</a></div>
-</li>
-<li id="ws-morabito-10-2-1-2">
-<div class="para" id="ws-morabito-10-2-1-2-1">
-<span class="process-math">\(\displaystyle 5^{x-1} = 25\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws-morabito-10-2-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" aria-hidden="true" data-description="Item 9.b"><a tabindex="-1" href="#ws-morabito-10-2-1-2" title="Copy heading and permalink for Item 9.b" aria-label="Copy heading and permalink for Item 9.b">🔗</a></div>
-</li>
-</ol>
-<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws-morabito-10-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" aria-hidden="true" data-description="Worksheet Exercise 9"><a tabindex="-1" href="#ws-morabito-10" title="Copy heading and permalink for Worksheet Exercise 9" aria-label="Copy heading and permalink for Worksheet Exercise 9">🔗</a></div>
-</article>
-<article class="exercise exercise-like" id="ws-morabito-11"><h3 class="heading"><span class="codenumber">10<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3>
-<div class="para" id="ws-morabito-11-1">Solve each logarithmic equation.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws-morabito-11-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="para logical" id="ws-morabito-11-2">
-<ol class="lower-alpha" style="list-style: ptx-marker-0;" id="ws-morabito-11-2-1">
-<li id="ws-morabito-11-2-1-1">
-<div class="para" id="ws-morabito-11-2-1-1-1">
-<span class="process-math">\(\displaystyle \log_2(x) = 5\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws-morabito-11-2-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" aria-hidden="true" data-description="Item 10.a"><a tabindex="-1" href="#ws-morabito-11-2-1-1" title="Copy heading and permalink for Item 10.a" aria-label="Copy heading and permalink for Item 10.a">🔗</a></div>
-</li>
-<li id="ws-morabito-11-2-1-2">
-<div class="para" id="ws-morabito-11-2-1-2-1">
-<span class="process-math">\(\displaystyle \log(x-3) = 2\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws-morabito-11-2-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" aria-hidden="true" data-description="Item 10.b"><a tabindex="-1" href="#ws-morabito-11-2-1-2" title="Copy heading and permalink for Item 10.b" aria-label="Copy heading and permalink for Item 10.b">🔗</a></div>
-</li>
-</ol>
-<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws-morabito-11-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" aria-hidden="true" data-description="Worksheet Exercise 10"><a tabindex="-1" href="#ws-morabito-11" title="Copy heading and permalink for Worksheet Exercise 10" aria-label="Copy heading and permalink for Worksheet Exercise 10">🔗</a></div>
-</article>
-<article class="exercise exercise-like" id="ws-morabito-12"><h3 class="heading"><span class="codenumber">11<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3>
-<div class="para" id="ws-morabito-12-1">Solve each logarithmic equation after using log properties to write as a single logarithm.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws-morabito-12-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="para logical" id="ws-morabito-12-2">
-<ol class="lower-alpha" style="list-style: ptx-marker-0;" id="ws-morabito-12-2-1">
-<li id="ws-morabito-12-2-1-1">
-<div class="para" id="ws-morabito-12-2-1-1-1">
-<span class="process-math">\(\displaystyle \log_2(x) + \log_2(5) = 3\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws-morabito-12-2-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" aria-hidden="true" data-description="Item 11.a"><a tabindex="-1" href="#ws-morabito-12-2-1-1" title="Copy heading and permalink for Item 11.a" aria-label="Copy heading and permalink for Item 11.a">🔗</a></div>
-</li>
-<li id="ws-morabito-12-2-1-2">
-<div class="para" id="ws-morabito-12-2-1-2-1">
-<span class="process-math">\(\displaystyle \log(x-3) - \log(4) = 1\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws-morabito-12-2-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" aria-hidden="true" data-description="Item 11.b"><a tabindex="-1" href="#ws-morabito-12-2-1-2" title="Copy heading and permalink for Item 11.b" aria-label="Copy heading and permalink for Item 11.b">🔗</a></div>
-</li>
-</ol>
-<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws-morabito-12-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" aria-hidden="true" data-description="Worksheet Exercise 11"><a tabindex="-1" href="#ws-morabito-12" title="Copy heading and permalink for Worksheet Exercise 11" aria-label="Copy heading and permalink for Worksheet Exercise 11">🔗</a></div>
-</article><div class="autopermalink" aria-hidden="true" data-description="Worksheet: Practice Exam - Exponentials and Logarithms"><a tabindex="-1" href="#ws-morabito" title="Copy heading and permalink for Worksheet: Practice Exam - Exponentials and Logarithms" aria-label="Copy heading and permalink for Worksheet: Practice Exam - Exponentials and Logarithms">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Subsection: Assignment: Palindrome Checker Using Stacks and Queues"><a tabindex="-1" href="#sec-gao-introduction" title="Copy heading and permalink for Subsection: Assignment: Palindrome Checker Using Stacks and Queues" aria-label="Copy heading and permalink for Subsection: Assignment: Palindrome Checker Using Stacks and Queues">🔗</a></div>
 </section>
-<section class="subsection" id="sec-morabito-nace">
+<section class="subsection" id="sec-gao-objective">
+<h2 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Objective:</span>
+</h2>
+<div class="para" id="sec-gao-objective-2">The goal of this assignment is to implement a program that determines whether a given sentence is a palindrome using the properties of stack (Last-In, First-Out - LIFO) and queue (First-In, First-Out - FIFO) data structures.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-gao-objective-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Subsection: Objective:"><a tabindex="-1" href="#sec-gao-objective" title="Copy heading and permalink for Subsection: Objective:" aria-label="Copy heading and permalink for Subsection: Objective:">🔗</a></div>
+</section>
+<section class="subsection" id="sec-gao-theory">
+<h2 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Theory:</span>
+</h2>
+<div class="para" id="sec-gao-theory-2">A palindrome is a sequence of characters that reads the same backward as forward, ignoring spaces, punctuation, and capitalization (e.g., "Madam, in Eden, I’m Adam" or "A man, a plan, a canal, Panama").  By pushing each character of the processed string (lowercase, no punctuation/spaces) into a stack and enqueueing the same characters into a queue, we can leverage their differing access methods. The queue will preserve the original order of characters, while the stack will reverse the order when characters are popped. Comparing the characters from the front of the queue and the top of the stack simultaneously allows us to check for the palindrome property efficiently.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-gao-theory-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Subsection: Theory:"><a tabindex="-1" href="#sec-gao-theory" title="Copy heading and permalink for Subsection: Theory:" aria-label="Copy heading and permalink for Subsection: Theory:">🔗</a></div>
+</section>
+<section class="subsection" id="sec-gao-instructions">
+<h2 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Instructions:</span>
+</h2>
+<div class="para" id="sec-gao-instructions-2">1.	Input: Your program should prompt the user to enter a sentence.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-gao-instructions-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-gao-instructions-3">2.	Preprocessing: Process the input sentence to remove all spaces and punctuation, and convert all characters to lowercase. This ensures that only the relevant alphabetical characters are used for the palindrome check.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-gao-instructions-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-gao-instructions-4">3.	Data Structure Population:<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-gao-instructions-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-gao-instructions-5">
+<ul class="disc" id="sec-gao-instructions-5-1">
+<li id="sec-gao-instructions-5-1-1">
+<div class="para" id="p-derived-sec-gao-instructions-5-1-1">Initialize an empty stack and an empty queue.</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#sec-gao-instructions-5-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="sec-gao-instructions-5-1-2">
+<div class="para" id="p-derived-sec-gao-instructions-5-1-2">Iterate through the processed string and insert each character into both the stack and the queue.</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#sec-gao-instructions-5-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-gao-instructions-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-gao-instructions-6">4.	Palindrome Check:<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-gao-instructions-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-gao-instructions-7">
+<ul class="disc" id="sec-gao-instructions-7-1">
+<li id="sec-gao-instructions-7-1-1">
+<div class="para" id="p-derived-sec-gao-instructions-7-1-1">Compare characters by simultaneously popping from the stack and dequeuing from the queue in a loop.</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#sec-gao-instructions-7-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="sec-gao-instructions-7-1-2">
+<div class="para" id="p-derived-sec-gao-instructions-7-1-2">If at any point a popped character from the stack does not match the dequeued character from the queue, the sentence is not a palindrome, and the comparison loop should stop.</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#sec-gao-instructions-7-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="sec-gao-instructions-7-1-3">
+<div class="para" id="p-derived-sec-gao-instructions-7-1-3">If the loop completes with all characters matching, the sentence is a palindrome.</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#sec-gao-instructions-7-1-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-gao-instructions-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-gao-instructions-8">5.	Output: Display the result to the user, clearly indicating whether the original sentence is a palindrome.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-gao-instructions-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Subsection: Instructions:"><a tabindex="-1" href="#sec-gao-instructions" title="Copy heading and permalink for Subsection: Instructions:" aria-label="Copy heading and permalink for Subsection: Instructions:">🔗</a></div>
+</section>
+<section class="subsection" id="sec-gao-general-requirements4">
+<h2 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">General Requirements:</span>
+</h2>
+<div class="para" id="sec-gao-general-requirements4-2">1. (8 pts) Fully document your program.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-gao-general-requirements4-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-gao-general-requirements4-3">2.	(32 pts) Implement all the classes (including Stack, Queue, Linked List if it is linked list based) correctly.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-gao-general-requirements4-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-gao-general-requirements4-4">3.	(10 pts) Include compiling/testing information.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-gao-general-requirements4-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Subsection: General Requirements:"><a tabindex="-1" href="#sec-gao-general-requirements4" title="Copy heading and permalink for Subsection: General Requirements:" aria-label="Copy heading and permalink for Subsection: General Requirements:">🔗</a></div>
+</section>
+<section class="subsection" id="subsec-gao-nace-competencies">
 <h2 class="heading hide-type">
 <span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">NACE Competencies</span>
 </h2>
-<div class="para" id="sec-morabito-nace-2">This assignment fulfills NACE competencies 2, 3, and 6 (for more information on NACE competencies, please see the document titled ’NACE Competencies’).<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-morabito-nace-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="subsec-gao-nace-competencies-2">The National Association of Colleges and Employers have identified eight <a class="external" href="https://www.naceweb.org/career-readiness/competencies/career-readiness-defined#competencies" target="_blank">core competencies</a> that help individuals to develop career readiness. This assignment will give students an opportunity to focus on two of these competencies in particular.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsec-gao-nace-competencies-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Subsection: NACE Competencies"><a tabindex="-1" href="#sec-morabito-nace" title="Copy heading and permalink for Subsection: NACE Competencies" aria-label="Copy heading and permalink for Subsection: NACE Competencies">🔗</a></div>
+<div class="para logical" id="subsec-gao-nace-competencies-3">
+<ul class="disc" id="subsec-gao-nace-competencies-3-1">
+<li id="subsec-gao-nace-competencies-3-1-1">
+<div class="para" id="subsec-gao-nace-competencies-3-1-1-1">
+<em class="emphasis">Critical Thinking</em>: Identify and respond to needs based upon an understanding of situational context and logical analysis of relevant information.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsec-gao-nace-competencies-3-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#subsec-gao-nace-competencies-3-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="subsec-gao-nace-competencies-3-1-2">
+<div class="para" id="subsec-gao-nace-competencies-3-1-2-1">
+<em class="emphasis">Technology</em>: Understand and leverage technologies ethically to enhance efficiencies, complete tasks, and accomplish goals.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsec-gao-nace-competencies-3-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#subsec-gao-nace-competencies-3-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsec-gao-nace-competencies-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Subsection: NACE Competencies"><a tabindex="-1" href="#subsec-gao-nace-competencies" title="Copy heading and permalink for Subsection: NACE Competencies" aria-label="Copy heading and permalink for Subsection: NACE Competencies">🔗</a></div>
 </section>
-<section class="conclusion" id="sec-sample-exam-5">
-<div class="para" id="sec-sample-exam-5-1">This assignment was created by Mark Morabito for the CA-ROTEL PreTeXt Working Group at Framingham State University. It is licensed under a BY-NC-SA Creative Commons license.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-sample-exam-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<section class="conclusion" id="sec-palindrome-checker-9">
+<div class="para" id="sec-palindrome-checker-9-1">This assignment was created by Zhenguang Gao for the CA-ROTEL PreTeXt Working Group at Framingham State University. It is licensed under a BY-NC-SA Creative Commons license.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-palindrome-checker-9-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="image-box" style="width: 20%; margin-left: 40%; margin-right: 40%;"><img src="external/by-nc-sa.png" class="contained" alt="CC BY-NC-SA"></div></section><div class="autopermalink" aria-hidden="true" data-description="Section: Introduction to Functions: Exam"><a tabindex="-1" href="#sec-sample-exam" title="Copy heading and permalink for Section: Introduction to Functions: Exam" aria-label="Copy heading and permalink for Section: Introduction to Functions: Exam">🔗</a></div>
+<div class="image-box" style="width: 20%; margin-left: 40%; margin-right: 40%;"><img src="external/by-nc-sa.png" class="contained" alt="CC BY-NC-SA"></div></section><div class="autopermalink" aria-hidden="true" data-description="Section: Data Structures: Palindrome Checker"><a tabindex="-1" href="#sec-palindrome-checker" title="Copy heading and permalink for Section: Data Structures: Palindrome Checker" aria-label="Copy heading and permalink for Section: Data Structures: Palindrome Checker">🔗</a></div>
 </section>
 </div>
 <div id="ptx-content-footer" class="ptx-content-footer">
-<a class="previous-button button" href="intro-to-functions.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="statistical-thinking-activity.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+<a class="previous-button button" href="sec-white-space-presentation.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-project-sound-collage.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
 </div>
 <div id="ptx-page-footer" class="ptx-page-footer">
