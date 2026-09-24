@@ -39,7 +39,7 @@
     </table>
     <exercises>
       <title></title>
-      <exercise number="1">
+      <exercise number="1" label="ex1">
         <statement>
           <p>
             Calculate the proportions of the control group and the treatment group who became sick, and compare the proportions. Which group had a higher rate of sickness?
@@ -47,7 +47,7 @@
           </statement>
         </exercise>
 
-        <exercise number="2">
+        <exercise number="2" label="ex2">
           <statement>
             <p>
               What other factors may we want to consider before concluding that the drug makes you more likely to get very sick after contracting the illness?
@@ -112,7 +112,7 @@
 
     <exercises>
       <title></title>
-      <exercise number="3">
+      <exercise number="3" label="ex3">
         <statement>
           <p>
             Explore the data in Table 2 by computing several more proportions. In particular, compute the sickness rates for: (i) the younger control people, (ii) the younger treatment people, (iii) the older control people, and (iv) the older treated people.
@@ -120,14 +120,14 @@
         </statement>
       </exercise>
 
-      <exercise number="4">
+      <exercise number="4" label="ex4">
         <statement>
           <p>
             Compute the proportion of older people in the control group and older people in the treated group
           </p>
         </statement>
       </exercise>
-      <exercise number="5">
+      <exercise number="5" label="ex5">
         <statement>
           <p>
             What do you notice about the proportions you just calculated? Do these results really show that the drug does not work?
