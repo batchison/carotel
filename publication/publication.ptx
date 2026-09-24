@@ -104,6 +104,7 @@
 
   <!-- The embed-button makes it easy to copy the code for an iframe into your LMS -->
   <html embed-button="yes">
+    <brandlogo url="https://www.framingham.edu" source="FSU__Shield_Full_Color.png" />
     <chunking level="0" /> 
     <navigation depth="0"/>
 
