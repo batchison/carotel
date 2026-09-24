@@ -126,10 +126,10 @@
         Base is 1/2cm thick (twice the wall thickness).
     </p>
     <p>
-        Capacity: <me> \pi \int_{1/2}^{13} [f(y)]^2 \ dy \approx \text{533.7mL} \approx \text{18.0oz} </me>
+        Capacity: <md> \pi \int_{1/2}^{13} [f(y)]^2 \ dy \approx \text{533.7mL} \approx \text{18.0oz} </md>
     </p>
     <p>
-        Amount of material used for printing: <me> \pi \int_{0}^{1/2} [g(y)]^2 \ dy + \pi \int_{1/2}^{13} ([g(y)]^2 - [f(y)]^2) \ dy \approx \text{90.4mL} \approx \text{3.1oz} </me>
+        Amount of material used for printing: <md> \pi \int_{0}^{1/2} [g(y)]^2 \ dy + \pi \int_{1/2}^{13} ([g(y)]^2 - [f(y)]^2) \ dy \approx \text{90.4mL} \approx \text{3.1oz} </md>
     </p>
     </subsection>
     <subsection xml:id="subsec-grading">
