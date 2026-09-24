@@ -379,18 +379,18 @@ var ptx_lunr_docs = [
   "body": "     Control  Treatment  Overall    Sick  253  402  655    Total  151,054  47,008  198,062    "
 },
 {
-  "id": "sec-data-description-4-2",
+  "id": "ex1",
   "level": "2",
-  "url": "statistical-thinking-activity.html#sec-data-description-4-2",
+  "url": "statistical-thinking-activity.html#ex1",
   "type": "Exercise",
   "number": "1",
   "title": "",
   "body": "  Calculate the proportions of the control group and the treatment group who became sick, and compare the proportions. Which group had a higher rate of sickness?   "
 },
 {
-  "id": "sec-data-description-4-3",
+  "id": "ex2",
   "level": "2",
-  "url": "statistical-thinking-activity.html#sec-data-description-4-3",
+  "url": "statistical-thinking-activity.html#ex2",
   "type": "Exercise",
   "number": "2",
   "title": "",
@@ -406,27 +406,27 @@ var ptx_lunr_docs = [
   "body": "      Control   Treatment   Overall       Younger  Older  Younger  Older  Younger  Older     Sick  48  205  13  389  61  594     Total  147,612  3,442  25,536  21,472  173,148  24,912    "
 },
 {
-  "id": "sec-including-more-data-4-2",
+  "id": "ex3",
   "level": "2",
-  "url": "statistical-thinking-activity.html#sec-including-more-data-4-2",
+  "url": "statistical-thinking-activity.html#ex3",
   "type": "Exercise",
   "number": "3",
   "title": "",
   "body": "  Explore the data in Table 2 by computing several more proportions. In particular, compute the sickness rates for: (i) the younger control people, (ii) the younger treatment people, (iii) the older control people, and (iv) the older treated people.   "
 },
 {
-  "id": "sec-including-more-data-4-3",
+  "id": "ex4",
   "level": "2",
-  "url": "statistical-thinking-activity.html#sec-including-more-data-4-3",
+  "url": "statistical-thinking-activity.html#ex4",
   "type": "Exercise",
   "number": "4",
   "title": "",
   "body": "  Compute the proportion of older people in the control group and older people in the treated group   "
 },
 {
-  "id": "sec-including-more-data-4-4",
+  "id": "ex5",
   "level": "2",
-  "url": "statistical-thinking-activity.html#sec-including-more-data-4-4",
+  "url": "statistical-thinking-activity.html#ex5",
   "type": "Exercise",
   "number": "5",
   "title": "",
