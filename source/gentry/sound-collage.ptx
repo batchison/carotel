@@ -1,0 +1,114 @@
+<section xml:id="sec-project-sound-collage">
+  <title>Music Technology and Production: Sound Collage</title>
+    <introduction>
+        <p> This is a sample assignment for students enrolled in a music technology and production course.</p>
+    </introduction>
+  <subsection xml:id="sec-sound-collage-intro">
+    <title>Introduction</title>
+      <p>In this assignment, you will create a 1 to 2 minute composition given the requirements below.</p>
+      <p>Note that several aspects of this assignment have accompanying tutorials and resources that should be provided by your instructor.</p>
+  </subsection>
+
+  <subsection xml:id="subsec-sound-sources">
+    <title>Sound Sources</title>
+    <p>
+      <ul>
+        <li><p>All sound sources should be from field recordings you have made.</p></li>
+        <li><p>No recording of instruments you play, or pre-existing music (off- or online).</p></li>
+      </ul>
+    </p>
+  </subsection>
+
+  <subsection xml:id="subsec-compositional-elements">
+    <title>Compositional Elements</title>
+    <p>
+      Your piece must include <em>all</em> of the following:
+      <ul>
+        <li><p>Gestures/Phrases</p></li>
+        <li><p>Pad/Drone</p></li>
+        <li><p>Non-metrical loops/repetitions</p></li>
+        <li><p>A clear Beginning—Middle—Climax—End structure</p></li>
+      </ul>
+<!--      See <em>Compositional Techniques</em> in the Unit 1 presentations.-->
+    </p>
+  </subsection>
+
+  <subsection xml:id="subsec-textural-timbral-elements">
+    <title>Textural and Timbral Elements</title>
+    <p>
+      The piece should include the following mixing and textural components,
+      applied at your discretion:
+      <ul>
+        <li><p>EQ</p></li>
+        <li><p>Panning</p></li>
+        <li><p>Reverb</p></li>
+      </ul>
+    </p>
+    <warning>
+      <title>No Clipping</title>
+      <p>
+        Your rendered audio must not clip. Using proper gain-staging will help
+        prevent this.
+        <!-- See the Unit 1 Tutorials for guidance.-->
+      </p>
+    </warning>
+  </subsection>
+
+  <subsection xml:id="subsec-gentry-submission-requirements">
+    <title>Submission Requirements</title>
+    <p>
+      Submit a zipped (compressed) file named <c>LASTNAME_Project 1</c>
+      containing the following:
+      <ul>
+        <li><p>Your REAPER session file(s) in the <c>.RPP</c> format</p></li>
+        <li><p>All audio files used (<c>.wav</c>, <c>.aiff</c>, <c>.mp4</c>, etc.)</p></li>
+        <li>
+          <p>
+            A losslessly rendered audio file (with a title) that can be played
+            outside of REAPER
+          </p>
+        </li>
+      </ul>
+    </p>
+  </subsection>
+
+  <subsection xml:id="subsec-gentry-grading">
+    <title>Grading</title>
+    <p>
+      <ul>
+        <li><p>10 pts — Technical competence</p></li>
+        <li><p>10 pts — Creativity</p></li>
+      </ul>
+    </p>
+  </subsection>
+
+  <subsection xml:id="subsec-gentry-nace-competencies">
+    <title>NACE Competencies</title>
+        <p>The National Association of Colleges and Employers have identified eight <url href="https://www.naceweb.org/career-readiness/competencies/career-readiness-defined#competencies">core competencies</url> that help individuals to develop career readiness. This assignment will give students an opportunity to focus on three of these competencies in particular.</p>
+    <p>
+        <ul>
+        <li>
+            <p><em>Communication</em>: Clearly and effectively exchange information, ideas, facts, and perspectives with persons inside and outside of an organization.</p>   
+        </li>
+        <li>
+            <p><em>Professionalism</em>: Knowing work environments differ greatly, understand and demonstrate effective work habits, and act in the interest of the larger community and workplace.</p>   
+        </li>
+        <li>
+            <p><em>Technology</em>: Understand and leverage technologies ethically to enhance efficiencies, complete tasks, and accomplish goals.</p>   
+        </li>
+        </ul>
+    </p>
+    </subsection>
+
+  <conclusion>
+    <p>
+      This assignment was created by Christian Gentry for the CA-ROTEL PreTeXt Working Group at Framingham State University. It is licensed under a BY-NC-SA Creative Commons license.
+    </p>
+    <!--<figure xml:id="cc-by-nc-sa">
+            <caption>Creative Commons License Attribution-NonCommercial-ShareAlike 4.0 International</caption>-->
+            <image width="20%" source="by-nc-sa.png">
+                <shortdescription>CC BY-NC-SA</shortdescription>
+            </image>
+    <!--</figure>-->
+  </conclusion>
+</section>

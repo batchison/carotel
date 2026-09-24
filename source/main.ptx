@@ -19,6 +19,7 @@
     <xi:include href="./brinkman/introduction-to-digital-humanities.ptx" />
     <xi:include href="./cataldo/color-and-design.ptx" />
     <xi:include href="./coyne/white-space.ptx" />
+    <xi:include href="./gentry/sound-collage.ptx" />
     <xi:include href="./nierintz/mental-health-counseling-practicum.ptx" />
     <xi:include href="./staniszewski/intro-to-functions.ptx" />
     <xi:include href="./morabito/intro-to-functions.ptx" />
@@ -26,7 +27,6 @@
     <xi:include href="./atchison/integral-calculus.ptx" />
 <!--
     <xi:include href="./gao/.ptx" />
-    <xi:include href="./gentry/.ptx" />
    <xi:include href="./wolff/.ptx" />-->
   </article>
 
