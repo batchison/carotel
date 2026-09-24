@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<section xml:id="sec-palindrome-checker">
+    <title>Data Structures: Palindrome Checker</title>
+    <introduction>
+        <p> This is a sample assignment for students enrolled in a data structures course.</p>
+    </introduction>
+    
+
+  <subsection xml:id="sec-gao-introduction">
+  <title>Assignment: Palindrome Checker Using Stacks and Queues</title>
+    <p>This assignment is worth 50 points.</p>
+  </subsection>
+
+  <subsection xml:id="sec-gao-objective">
+  <title>Objective:</title>
+  <p>The goal of this assignment is to implement a program that determines whether a given sentence is a palindrome using the properties of stack (Last-In, First-Out - LIFO) and queue (First-In, First-Out - FIFO) data structures.</p>
+  </subsection>
+
+  <subsection xml:id="sec-gao-theory">
+  <title>Theory:</title>
+  <p>A palindrome is a sequence of characters that reads the same backward as forward, ignoring spaces, punctuation, and capitalization (e.g., "Madam, in Eden, I'm Adam" or "A man, a plan, a canal, Panama").By pushing each character of the processed string (lowercase, no punctuation/spaces) into a stack and enqueueing the same characters into a queue, we can leverage their differing access methods. The queue will preserve the original order of characters, while the stack will reverse the order when characters are popped. Comparing the characters from the front of the queue and the top of the stack simultaneously allows us to check for the palindrome property efficiently.</p>
+  </subsection>
+
+  <subsection xml:id="sec-gao-instructions">
+    <title>Instructions:</title>
+    <p>1.	Input: Your program should prompt the user to enter a sentence.</p>
+    <p>2.	Preprocessing: Process the input sentence to remove all spaces and punctuation, and convert all characters to lowercase. This ensures that only the relevant alphabetical characters are used for the palindrome check.</p>
+    <p>3.	Data Structure Population:</p>
+    <p>&#160; o	Initialize an empty stack and an empty queue.</p>
+    <p>&#160; o	Iterate through the processed string and insert each character into both the stack and the queue.</p>
+    <p> 4.	Palindrome Check:</p>
+    <p>&#160; o	Compare characters by simultaneously popping from the stack and dequeuing from the queue in a loop.</p>
+    <p>&#160; o	If at any point a popped character from the stack does not match the dequeued character from the queue, the sentence is not a palindrome, and the comparison loop should stop.</p>
+    <p>&#160; o	If the loop completes with all characters matching, the sentence is a palindrome.</p>
+    <p>5.	Output: Display the result to the user, clearly indicating whether the original sentence is a palindrome.</p>
+  </subsection>
+  <subsection xml:id="sec-gao-general-requirements4">
+    <title> General Requirements:</title>
+    <p> 1. (8 pts) Fully document your program.</p>
+    <p>2.	(32 pts) Implement all the classes (including Stack, Queue, Linked List if it is linked list based) correctly.</p>
+    <p>3.	(10 pts) Include compiling/testing information.</p>
+  </subsection>
+  <subsection xml:id="subsec-gao-nace-competencies">
+    <title>NACE Competencies</title>
+        <p>The National Association of Colleges and Employers have identified eight <url href="https://www.naceweb.org/career-readiness/competencies/career-readiness-defined#competencies">core competencies</url> that help individuals to develop career readiness. This assignment will give students an opportunity to focus on two of these competencies in particular.</p>
+    <p>
+        <ul>
+        <li>
+            <p><em>Critical Thinking</em>: Identify and respond to needs based upon an understanding of situational context and logical analysis of relevant information.</p>
+        </li>
+        <li>
+            <p><em>Technology</em>: Understand and leverage technologies ethically to enhance efficiencies, complete tasks, and accomplish goals.</p>
+        </li>
+        </ul>
+    </p>
+</subsection>
+<conclusion>
+    <p>
+      This assignment was created by Zhenguang Gao for the CA-ROTEL PreTeXt Working Group at Framingham State University. It is licensed under a BY-NC-SA Creative Commons license.
+    </p>
+    <!--<figure xml:id="cc-by-nc-sa">
+            <caption>Creative Commons License Attribution-NonCommercial-ShareAlike 4.0 International</caption>-->
+            <image width="20%" source="by-nc-sa.png">
+                <shortdescription>CC BY-NC-SA</shortdescription>
+            </image>
+    <!--</figure>-->
+</conclusion>
+</section>
