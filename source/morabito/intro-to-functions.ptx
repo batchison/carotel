@@ -7,7 +7,6 @@
     </introduction>
 <subsection xml:id="sec-morabito-exercises">
   <title>Exercises</title>
-  <exercises>
   <exercise>
     <p>
       Create a table with at least two points and graph the following function. Then state the <em>domain</em>, <em>range</em>, and the equation of the <em>horizontal asymptote</em>.
@@ -33,16 +32,10 @@
 
   <exercise>
     <p>Rewrite each expression using exponential form.</p>
-    <task>
-    <p>
-      <m>\log_2 16 = x</m>
-    </p>
-    </task>
-    <task>
-    <p>
-      <m>\log_5\left(\frac{1}{125}\right) = x</m>
-    </p>
-    </task>
+    <ol>
+    <li><p><m>\log_2 16 = x</m></p></li>
+    <li><p><m>\log_5\left(\frac{1}{125}\right) = x</m></p></li>
+    </ol>
   </exercise>
 
   <exercise>
@@ -182,7 +175,6 @@
     </p>
     </task>
   </exercise>
-</exercises>
 
 </subsection>
 
