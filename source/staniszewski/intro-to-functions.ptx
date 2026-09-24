@@ -159,13 +159,13 @@
   <subsection>
     <title>Problem 4</title>
     <p> Sketch a graph of the following piecewise function. 
-      <me>
+      <md>
       f(x) = \begin{cases}
         5x \amp x\le 0 \\
         3 \amp 0\leq x \leq 2 \\
         x^2 \amp x \ge 2 \\
       \end{cases}
-      </me>
+      </md>
       </p>
   </subsection>
 
