@@ -18,7 +18,7 @@
 
   <subsection xml:id="sec-gao-theory">
   <title>Theory:</title>
-  <p>A palindrome is a sequence of characters that reads the same backward as forward, ignoring spaces, punctuation, and capitalization (e.g., "Madam, in Eden, I'm Adam" or "A man, a plan, a canal, Panama").By pushing each character of the processed string (lowercase, no punctuation/spaces) into a stack and enqueueing the same characters into a queue, we can leverage their differing access methods. The queue will preserve the original order of characters, while the stack will reverse the order when characters are popped. Comparing the characters from the front of the queue and the top of the stack simultaneously allows us to check for the palindrome property efficiently.</p>
+  <p>A palindrome is a sequence of characters that reads the same backward as forward, ignoring spaces, punctuation, and capitalization (e.g., "Madam, in Eden, I'm Adam" or "A man, a plan, a canal, Panama").  By pushing each character of the processed string (lowercase, no punctuation/spaces) into a stack and enqueueing the same characters into a queue, we can leverage their differing access methods. The queue will preserve the original order of characters, while the stack will reverse the order when characters are popped. Comparing the characters from the front of the queue and the top of the stack simultaneously allows us to check for the palindrome property efficiently.</p>
   </subsection>
 
   <subsection xml:id="sec-gao-instructions">
@@ -26,12 +26,19 @@
     <p>1.	Input: Your program should prompt the user to enter a sentence.</p>
     <p>2.	Preprocessing: Process the input sentence to remove all spaces and punctuation, and convert all characters to lowercase. This ensures that only the relevant alphabetical characters are used for the palindrome check.</p>
     <p>3.	Data Structure Population:</p>
-    <p>&#160; o	Initialize an empty stack and an empty queue.</p>
-    <p>&#160; o	Iterate through the processed string and insert each character into both the stack and the queue.</p>
+    <p>
+    <ul>
+    <li>Initialize an empty stack and an empty queue.</li>
+    <li>Iterate through the processed string and insert each character into both the stack and the queue.</li>
+    </ul>
+    </p>
     <p> 4.	Palindrome Check:</p>
-    <p>&#160; o	Compare characters by simultaneously popping from the stack and dequeuing from the queue in a loop.</p>
-    <p>&#160; o	If at any point a popped character from the stack does not match the dequeued character from the queue, the sentence is not a palindrome, and the comparison loop should stop.</p>
-    <p>&#160; o	If the loop completes with all characters matching, the sentence is a palindrome.</p>
+    <p><ul>
+    <li>Compare characters by simultaneously popping from the stack and dequeuing from the queue in a loop.</li>
+    <li>If at any point a popped character from the stack does not match the dequeued character from the queue, the sentence is not a palindrome, and the comparison loop should stop.</li>
+    <li>If the loop completes with all characters matching, the sentence is a palindrome.</li>
+    </ul>
+  </p>
     <p>5.	Output: Display the result to the user, clearly indicating whether the original sentence is a palindrome.</p>
   </subsection>
   <subsection xml:id="sec-gao-general-requirements4">
