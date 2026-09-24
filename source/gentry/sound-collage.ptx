@@ -44,14 +44,9 @@
         <li><p>Reverb</p></li>
       </ul>
     </p>
-    <warning>
-      <title>No Clipping</title>
-      <p>
-        Your rendered audio must not clip. Using proper gain-staging will help
-        prevent this.
+    <p><alert>No Clipping:</alert> Your rendered audio must not clip. Using proper gain-staging will help prevent this.
         <!-- See the Unit 1 Tutorials for guidance.-->
       </p>
-    </warning>
   </subsection>
 
   <subsection xml:id="subsec-gentry-submission-requirements">
